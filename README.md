@@ -23,7 +23,7 @@ I am a Technical Lead, with more than 8 years of experience as a develope, worki
 
 ## 😄 A little bit about me
 
-- 🔭 I’m currently working on [Optic power](http://opticpower.com) full time and in my personal project [Justbit](justbit.site) in my free time
+- 🔭 I’m currently open to new oportunities
 - 🌱 I’m currently learning elixir and phoenix framework
 - 👯 I’m looking to collaborate on any interesting project
 - 🤔 I’m looking for help with new things to learn, what do you recommend me
