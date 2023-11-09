@@ -2,9 +2,9 @@
 
 I'm a seasoned Full Stack Developer with a strong focus on front-end development and a passion for leading tech teams to success. With over a decade of professional experience, I've mastered complex technologies and led teams to deliver high-quality solutions that align with business objectives. As a Tech Lead, I excel in crafting technology around the core business model, ensuring project success and exceeding expectations. Find out more about me & feel free to connect with me here:
 
-[![Linkedin Badge](https://img.shields.io/badge/-Santiago_Molina-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santi020k/)](https://www.linkedin.com/in/santi020k/)
-[![Gmail Badge](https://img.shields.io/badge/-info@santi020k.me-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:info@santi020k.me)](mailto:info@santi020k.me)
-[![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=flat-square&logo=Brave&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
+[![Linkedin Badge](https://img.shields.io/badge/-Santiago_Molina-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santi020k/)](https://www.linkedin.com/in/santi020k/)
+[![Gmail Badge](https://img.shields.io/badge/-info@santi020k.me-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:info@santi020k.me)](mailto:info@santi020k.me)
+[![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=for-the-badge&logo=Google-Chrome&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
 
 ## 😄 A bit about me
 
@@ -44,7 +44,9 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 ![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=santi020k)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact)
- 
+
+<!--
 ## 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=santi020k&theme=discord&no-frame=true&no-bg=false&margin-w=4)
+-->
