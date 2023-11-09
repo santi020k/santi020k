@@ -3,7 +3,7 @@
 I'm a seasoned Full Stack Developer with a strong focus on front-end development and a passion for leading tech teams to success. With over a decade of professional experience, I've mastered complex technologies and led teams to deliver high-quality solutions that align with business objectives. As a Tech Lead, I excel in crafting technology around the core business model, ensuring project success and exceeding expectations. Find out more about me & feel free to connect with me here:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Santiago_Molina-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santi020k/)](https://www.linkedin.com/in/santi020k/)
-[![Gmail Badge](https://img.shields.io/badge/-santi020k@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:santi020k@gmail.com)](mailto:davidgiraldobueno@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-info@santi020k.me-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:info@santi020k.me)](mailto:info@santi020k.me)
 [![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=flat-square&logo=Brave&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
 
 ## 😄 A bit about me
