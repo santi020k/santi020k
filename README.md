@@ -1,33 +1,18 @@
 ## Hi there 👋
 
-<!--
-**santi020k/santi020k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
--  Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 I'm a seasoned Full Stack Developer with a strong focus on front-end development and a passion for leading tech teams to success. With over a decade of professional experience, I've mastered complex technologies and led teams to deliver high-quality solutions that align with business objectives. As a Tech Lead, I excel in crafting technology around the core business model, ensuring project success and exceeding expectations. Find out more about me & feel free to connect with me here:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Santiago_Molina-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santi020k/)](https://www.linkedin.com/in/santi020k/)
 [![Gmail Badge](https://img.shields.io/badge/-santi020k@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:santi020k@gmail.com)](mailto:davidgiraldobueno@gmail.com)
 [![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=flat-square&logo=Brave&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
 
-## 😄 A little bit about me
+## 😄 A bit about me
 
-- 🔭 I’m currently open to new oportunities
-- 🌱 I’m currently learning elixir and phoenix framework
-- 👯 I’m looking to collaborate on any interesting project
-- 🤔 I’m looking for help with new things to learn, what do you recommend me
-- 💬 Ask me about anything from programming
+- 🔭 Currently exploring new opportunities
+- 🌱 Learning Elixir and Phoenix framework
+- 👯 Open to collaborating on interesting projects
+- 🤔 Seeking guidance on what to learn next; any recommendations?
+- 💬 Feel free to ask me about anything related to programming!
 
 ## ⚡ Technologies
 
@@ -54,6 +39,12 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Zod Badge](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=santi020k&count_private=true&show_icons=true&include_all_commits=true)
+## 📊 Stats
+
+![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=santi020k)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact)
  
+## 🏆 GitHub Trophies
+
+![](https://github-profile-trophy.vercel.app/?username=santi020k&theme=discord&no-frame=true&no-bg=false&margin-w=4)
