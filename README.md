@@ -1,4 +1,6 @@
-<img src="./banner-logo.jpg" />
+# Santi020k
+
+<img src="./banner-logo.jpg" alt="Santi020k Banner" />
 
 ## Hi there 👋
 
@@ -8,6 +10,8 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 [![Gmail Badge](https://img.shields.io/badge/-info@santi020k.me-black?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:info@santi020k.me)](mailto:info@santi020k.me)
 [![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=for-the-badge&logo=Google-Chrome&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
 
+---
+
 ## 😄 A bit about me
 
 - 🔭 Currently exploring new opportunities
@@ -15,6 +19,8 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 - 👯 Open to collaborating on interesting projects
 - 🤔 Seeking guidance on what to learn next; any recommendations?
 - 💬 Feel free to ask me about anything related to programming!
+
+---
 
 ## ⚡ Technologies
 
@@ -36,14 +42,26 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-black.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Zod Badge](https://img.shields.io/badge/Zod-black?style=for-the-badge&logo=zod&logoColor=white)
 
+---
+
 ## 📊 Stats
 
 ![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=santi020k)
 
+---
+
+## 🏆 Top Langs
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact)
 
-<!--
+---
+
 ## 🏆 GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=santi020k&theme=discord&no-frame=true&no-bg=false&margin-w=4)
--->
+![Trophies](https://github-profile-trophy.vercel.app/?username=santi020k&theme=discord&no-frame=true&no-bg=false&margin-w=4)
+
+---
+
+Feel free to reach out to me for collaboration, mentorship, or any interesting project you'd like to discuss!
+
+---
