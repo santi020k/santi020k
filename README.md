@@ -62,6 +62,12 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 
 ---
 
+## ✍🏼 Medium
+
+[![Santi020k Medium](https://github-readme-medium.vercel.app/?username=santi020k&limit=2)](https://medium.com/@santi020k)
+
+---
+
 Feel free to reach out to me for collaboration, mentorship, or any interesting project you'd like to discuss!
 
 ---
