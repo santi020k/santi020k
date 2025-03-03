@@ -46,7 +46,7 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 
 ## 📊 Stats
 
-![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=santi020k)
+[![GitHub Streak](https://streak-stats.demolab.com?user=santi020k)](https://git.io/streak-stats)
 
 ---
 
@@ -64,7 +64,7 @@ I'm a seasoned Full Stack Developer with a strong focus on front-end development
 
 ## ✍🏼 Medium
 
-[![Santi020k Medium](https://github-readme-medium.vercel.app/?username=santi020k&limit=2)](https://medium.com/@santi020k)
+[![Santi020k Medium](https://github-readme-medium.vercel.app/?username=santi020k)](https://medium.com/@santi020k)
 
 ---
 
