@@ -6,16 +6,16 @@
 
 <div align="center">
   <a href="https://linkedin.com/in/santi020k">
-    <img src="https://img.shields.io/badge/LinkedIn-santi020k-black?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-santi020k-black?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://santi020k.com">
-    <img src="https://img.shields.io/badge/Website-santi020k.com-black?style=for-the-badge&logo=astro&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-santi020k.com-black?style=for-the-badge&logo=Astro&logoColor=white" alt="Website" />
   </a>
   <a href="https://medium.com/@santi020k">
-    <img src="https://img.shields.io/badge/Medium-@santi020k-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+    <img src="https://img.shields.io/badge/Medium-@santi020k-black?style=for-the-badge&logo=Medium&logoColor=white" alt="Medium" />
   </a>
   <a href="mailto:hi@santi020k.com">
-    <img src="https://img.shields.io/badge/Email-hi@santi020k.com-black?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-hi@santi020k.com-black?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
@@ -38,8 +38,8 @@ Currently **open to tech lead, full-stack, and engineering leadership roles**.
 ## 🧭 Right now
 
 - 🏗️ Building and maintaining [santi020k.com](https://santi020k.com) — my personal site, blog, and portfolio
-- 🎙️ Speaking at community events about React, DX, and engineering leadership [Speaking](https://santi020k.com/speaking)
-- 📝 Writing practical engineering content on [Medium](https://medium.com/@santi020k) [Blog](https://santi020k.com/blog) — 26+ published posts
+- 🎙️ Speaking at community events about React, DX, and engineering leadership — [upcoming sessions](https://santi020k.com/speaking)
+- 📝 Writing practical engineering content — [Medium](https://medium.com/@santi020k) · [Blog](https://santi020k.com/blog) · 26+ posts published
 - 🌱 Exploring Python and Data Engineering
 - 👥 Co-organising meetups and workshops through [ReactJS Colombia](https://www.meetup.com/reactjs-medellin/) since 2017
 
@@ -52,7 +52,7 @@ Currently **open to tech lead, full-stack, and engineering leadership roles**.
 | **[Void.GG](https://void.gg)** | Technical Lead | 35% better performance · 60% faster deploys · 95%+ sprint velocity |
 | **[X Games](https://web.archive.org/web/20250827083904/https://www.xgames.com/)** | Senior Full Stack Engineer | 56+ PRs · Full GAM ad infrastructure · Geo-based live stream access control |
 | **[Optic Power / Codepwr](https://www.codepwr.com/)** | Senior Full Stack Engineer | 40% better API performance · Shipped Team Liquid, NurtureBoss & Stardust.gg |
-| **[eslint-config-santi020k](https://github.com/santi020k/eslint-config-santi020k)** | Author | Open-source ESLint config for TypeScript + React projects |
+| **[eslint-config-basic](https://github.com/santi020k/eslint-config-basic)** | Author | Open-source ESLint config for TypeScript + React projects |
 
 ---
 
@@ -128,14 +128,17 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 ## 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=santi020k&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=santi020k&theme=onedark&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
 </div>
 
 ---
 
 ## ✍️ Latest writing
 
-[![Medium articles](https://github-readme-medium.vercel.app/?username=santi020k&limit=4)](https://medium.com/@santi020k)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+→ [Read all posts on Medium](https://medium.com/@santi020k)
 
 ---
 
@@ -157,6 +160,6 @@ I'm at my best when a team is shipping but needs clearer standards, calmer relea
 
 <br />
 
-<!-- <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" /> -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
