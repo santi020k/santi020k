@@ -1,73 +1,162 @@
-# Santiago Molina Orozco
+<div align="center">
+  <img src="./s2k-banner.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" />
+</div>
 
-<img src="./banner-logo.jpg" alt="Santi020k Banner" />
+<br />
 
-## Hi there 👋
+<div align="center">
+  <a href="https://linkedin.com/in/santi020k">
+    <img src="https://img.shields.io/badge/LinkedIn-santi020k-black?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://santi020k.com">
+    <img src="https://img.shields.io/badge/Website-santi020k.com-black?style=for-the-badge&logo=astro&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://medium.com/@santi020k">
+    <img src="https://img.shields.io/badge/Medium-@santi020k-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="mailto:hi@santi020k.com">
+    <img src="https://img.shields.io/badge/Email-hi@santi020k.com-black?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
 
-I'm a seasoned Full Stack Developer with a strong focus on front-end development and a passion for leading tech teams to success. With over a decade of professional experience, I've mastered complex technologies and led teams to deliver high-quality solutions that align with business objectives. As a Tech Lead, I excel in crafting technology around the core business model, ensuring project success and exceeding expectations. Find out more about me & feel free to connect with me here:
-
-[![Linkedin Badge](https://img.shields.io/badge/-Santiago_Molina-black?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/santi020k/)](https://www.linkedin.com/in/santi020k/)
-[![Gmail Badge](https://img.shields.io/badge/-info@santi020k.me-black?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:info@santi020k.me)](mailto:info@santi020k.me)
-[![Website Badge](https://img.shields.io/badge/-santi020k.me-black?style=for-the-badge&logo=Google-Chrome&logoColor=white&link=https://santi020k.me/)](https://santi020k.me/)
+<br />
 
 ---
 
-## 😄 A bit about me
+## Santiago Molina Orozco
 
-- 🔭 Currently exploring new opportunities
-- 🌱 Learning Elixir and Phoenix framework
-- 👯 Open to collaborating on interesting projects
-- 🤔 Seeking guidance on what to learn next; any recommendations?
-- 💬 Feel free to ask me about anything related to programming!
+**Engineering Leader & Full-Stack** · Medellin, Colombia · Remote worldwide
+
+> I lead engineering teams, architect resilient systems, and build tools that empower developers.
+
+12+ years shipping full-stack products — from high-traffic sports media platforms to esports systems, SaaS products, and open-source tooling. I specialise in technical leadership, developer experience, and the kind of architecture decisions that keep teams moving without letting quality slip.
+
+Currently **open to tech lead, full-stack, and engineering leadership roles**.
 
 ---
 
-## ⚡ Technologies
+## 🧭 Right now
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
-![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
-![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=redux)
-![Next.js](https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js)
+- 🏗️ Building and maintaining [santi020k.com](https://santi020k.com) — my personal site, blog, and portfolio
+- 🎙️ Speaking at community events about React, DX, and engineering leadership [Speaking](https://santi020k.com/speaking)
+- 📝 Writing practical engineering content on [Medium](https://medium.com/@santi020k) [Blog](https://santi020k.com/blog) — 26+ published posts
+- 🌱 Exploring Python and Data Engineering
+- 👥 Co-organising meetups and workshops through [ReactJS Colombia](https://www.meetup.com/reactjs-medellin/) since 2017
+
+---
+
+## 📌 Selected work
+
+| Project | Role | Impact |
+|---|---|---|
+| **[Void.GG](https://void.gg)** | Technical Lead | 35% better performance · 60% faster deploys · 95%+ sprint velocity |
+| **[X Games](https://web.archive.org/web/20250827083904/https://www.xgames.com/)** | Senior Full Stack Engineer | 56+ PRs · Full GAM ad infrastructure · Geo-based live stream access control |
+| **[Optic Power / Codepwr](https://www.codepwr.com/)** | Senior Full Stack Engineer | 40% better API performance · Shipped Team Liquid, NurtureBoss & Stardust.gg |
+| **[eslint-config-santi020k](https://github.com/santi020k/eslint-config-santi020k)** | Author | Open-source ESLint config for TypeScript + React projects |
+
+---
+
+## ⚡ Tech stack
+
+**Frontend**
+
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-black?style=for-the-badge&logo=graphql)
-![Apollo GraphQL](https://img.shields.io/badge/-Apollo%20GraphQL-black?style=for-the-badge&logo=apollo-graphql)
-![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js)
+![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js)
+![Astro](https://img.shields.io/badge/-Astro-black?style=for-the-badge&logo=astro&logoColor=FDFDFE)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=redux)
+
+**Backend & Data**
+
+![Node.js](https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-black?style=for-the-badge&logo=express)
-![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb)
+![GraphQL](https://img.shields.io/badge/-GraphQL-black?style=for-the-badge&logo=graphql)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=postgresql&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
-![Supabase](https://img.shields.io/badge/Supabase-black?style=for-the-badge&logo=supabase&logoColor=white)
-![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-black.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Zod Badge](https://img.shields.io/badge/Zod-black?style=for-the-badge&logo=zod&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb)
+![Supabase](https://img.shields.io/badge/-Supabase-black?style=for-the-badge&logo=supabase&logoColor=white)
+
+**Quality & DX**
+
+![Vitest](https://img.shields.io/badge/-Vitest-black?style=for-the-badge&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/-Playwright-black?style=for-the-badge&logo=playwright&logoColor=white)
+![ESLint](https://img.shields.io/badge/-ESLint-black?style=for-the-badge&logo=eslint&logoColor=white)
+![Zod](https://img.shields.io/badge/-Zod-black?style=for-the-badge&logo=zod&logoColor=white)
+![Storybook](https://img.shields.io/badge/-Storybook-black?style=for-the-badge&logo=storybook&logoColor=white)
+
+**Platform & Infra**
+
+![Vercel](https://img.shields.io/badge/-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-black?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-black?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ---
 
-## 📊 Stats
+## 🎙️ Speaking
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=santi020k)](https://git.io/streak-stats)
+I speak at meetups and workshops on engineering leadership, developer experience, and frontend architecture. Past sessions include:
 
----
+- **Surviving Technical Interviews in React** — ReactJS Medellín 2024 · ~110 attendees · [▶ Video](https://www.youtube.com/watch?v=UtBZP93cOUs) · [Slides](https://interviews.santi020k.com/1)
+- **How to Automate Front End Processes (and Not Die Trying)** — ReactJS Medellín 2024 · ~90 attendees
 
-## 🏆 Top Langs
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact)
-
----
-
-## 🏆 GitHub Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=santi020k&theme=discord&no-frame=true&no-bg=false&margin-w=4)
+Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi020k.com) or visit [santi020k.com/speaking](https://santi020k.com/speaking/).
 
 ---
 
-## ✍🏼 Medium
+## 📊 GitHub stats
 
-[![Santi020k Medium](https://github-readme-medium.vercel.app/?username=santi020k)](https://medium.com/@santi020k)
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=santi020k&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888" alt="GitHub Streak" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=santi020k&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc" alt="Top Languages" height="165" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=santi020k&theme=github-compact&hide_border=true&bg_color=00000000&color=ffffff&line=888888&point=ffffff&area=true&area_color=333333" alt="Activity Graph" width="100%" />
+</div>
 
 ---
 
-Feel free to reach out to me for collaboration, mentorship, or any interesting project you'd like to discuss!
+## 🏆 Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=santi020k&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+</div>
 
 ---
+
+## ✍️ Latest writing
+
+[![Medium articles](https://github-readme-medium.vercel.app/?username=santi020k&limit=4)](https://medium.com/@santi020k)
+
+---
+
+## 🤝 Let's work together
+
+I'm at my best when a team is shipping but needs clearer standards, calmer releases, and stronger technical decision-making. Whether that's a tech lead engagement, architecture advisory, a workshop, or a full-stack build — feel free to reach out.
+
+<div align="center">
+  <a href="https://santi020k.com">
+    <img src="https://img.shields.io/badge/→_Visit_my_website-black?style=for-the-badge" alt="Visit website" />
+  </a>
+  <a href="https://linkedin.com/in/santi020k">
+    <img src="https://img.shields.io/badge/→_Connect_on_LinkedIn-black?style=for-the-badge" alt="LinkedIn" />
+  </a>
+  <a href="mailto:hi@santi020k.com">
+    <img src="https://img.shields.io/badge/→_Send_an_email-black?style=for-the-badge" alt="Email" />
+  </a>
+</div>
+
+<br />
+
+<!-- <div align="center">
+  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" /> -->
+</div>
