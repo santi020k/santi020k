@@ -135,8 +135,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 
 ## ✍️ Latest writing
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [AI Coding Is Probabilistic. Your Delivery Process Should Not Be](https://towardsdev.com/ai-coding-is-probabilistic-your-delivery-process-should-not-be-a94a9be1ef7d?source=rss-493338f85a63------2) — 2026-36-16- [Boosting Code Quality and Efficiency with My ESLint Configuration Library](https://towardsdev.com/boosting-code-quality-and-efficiency-with-my-eslint-configuration-library-3a4cbc1993a7?source=rss-493338f85a63------2) — 2024-27-23- [Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica Set](https://towardsdev.com/configuring-mongodb-with-homebrew-on-macos-converting-a-standalone-instance-to-a-replica-set-482623476dcf?source=rss-493338f85a63------2) — 2024-33-05- [Storybook in Action with Next.js, Tailwind and TypeScript](https://medium.com/@santi020k/storybook-in-action-with-next-js-tailwind-and-typescript-dd95875856a2?source=rss-493338f85a63------2) — 2024-11-29- [Development Workflow with Husky for Next.js, ESLint, and Vitest Integration](https://medium.com/@santi020k/development-workflow-with-husky-for-next-js-eslint-and-vitest-integration-d75548e48092?source=rss-493338f85a63------2) — 2024-47-21<!-- BLOG-POST-LIST:END -->
 
 → [Read all posts on Medium](https://medium.com/@santi020k)
 
