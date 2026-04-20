@@ -50,7 +50,7 @@ Currently **open to tech lead, full-stack, and engineering leadership roles**.
 | Project | Role | Impact |
 |---|---|---|
 | **[Void.GG](https://void.gg)** | Technical Lead | 35% better performance · 60% faster deploys · 95%+ sprint velocity |
-| **[X Games](https://web.archive.org/web/20250827083904/https://www.xgames.com/)** | Senior Full Stack Engineer | 56+ PRs · Full GAM ad infrastructure · Geo-based live stream access control |
+| **[X Games](https://www.xgames.com/)** | Senior Full Stack Engineer | 56+ PRs · Full GAM ad infrastructure · Geo-based live stream access control |
 | **[Optic Power / Codepwr](https://www.codepwr.com/)** | Senior Full Stack Engineer | 40% better API performance · Shipped Team Liquid, NurtureBoss & Stardust.gg |
 | **[eslint-config-basic](https://github.com/santi020k/eslint-config-basic)** | Author | Open-source ESLint config for TypeScript + React projects |
 
@@ -75,6 +75,12 @@ Currently **open to tech lead, full-stack, and engineering leadership roles**.
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb)
 ![Supabase](https://img.shields.io/badge/-Supabase-black?style=for-the-badge&logo=supabase&logoColor=white)
+
+**Learning**
+
+![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/-Airflow-black?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-black?style=for-the-badge&logo=dbt&logoColor=white)
 
 **Quality & DX**
 
@@ -202,7 +208,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 </table>
 <!-- BLOG-POST-LIST:END -->
 
-→ [Read all posts on Medium](https://medium.com/@santi020k)
+→ [Read all posts on Medium](https://medium.com/@santi020k) · [Read all posts on my blog](https://santi020k.com/blog)
 
 ---
 
@@ -219,6 +225,9 @@ I'm at my best when a team is shipping but needs clearer standards, calmer relea
   </a>
   <a href="mailto:hi@santi020k.com">
     <img src="https://img.shields.io/badge/→_Send_an_email-black?style=for-the-badge" alt="Email" />
+  </a>
+  <a href="https://calendar.app.google/3hfKdPhg1C6EQ3bY7">
+    <img src="https://img.shields.io/badge/→_Book_a_call-black?style=for-the-badge&logo=Google+Calendar&logoColor=white" alt="Book a call" />
   </a>
 </div>
 
