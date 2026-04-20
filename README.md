@@ -114,7 +114,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=santi020k&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact&langs_count=10&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc" alt="Top Languages" height="165" />
 </div>
 
 <br />
@@ -123,12 +123,22 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=santi020k&theme=github-compact&hide_border=true&bg_color=00000000&color=ffffff&line=888888&point=ffffff&area=true&area_color=333333" alt="Activity Graph" width="100%" />
 </div>
 
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
 ---
 
 ## 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=santi020k&theme=onedark&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+  <img src="https://gh-trophy.cdnsoft.net/?username=santi020k&theme=onedark&no-frame=true&no-bg=true&margin-w=6&column=6" alt="GitHub Trophies" />
 </div>
 
 ---
