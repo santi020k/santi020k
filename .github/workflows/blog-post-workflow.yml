@@ -5,6 +5,10 @@ on:
     # Runs every day at 08:00 UTC
     - cron: '0 8 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/update_medium_posts.py'
 
 permissions:
   contents: write

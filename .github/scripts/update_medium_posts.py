@@ -71,8 +71,9 @@ def parse_date(raw: str) -> str:
 
 
 def build_card(post: dict) -> str:
+    cover_alt = html.escape(f"Cover: {post['title']}")
     img_tag = (
-        f'<img src="{post["image"]}" width="270" alt="" /><br />'
+        f'<img src="{post["image"]}" width="270" alt="{cover_alt}" /><br />'
         if post["image"]
         else ""
     )

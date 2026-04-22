@@ -1,3 +1,10 @@
+<!--
+  Profile maintenance (not shown when rendered):
+  - Pin 6 repos: eslint-config-basic, santi020k (this profile), void, interviews, medium-posts, eslint-config-santi020k
+  - next-meetup and file-manager are archived (read-only on GitHub); keep unpinned unless you unarchive them.
+  - github.com/settings/profile: set Location to "Medellín, Colombia" and align Company with how you want to appear (employer, Independent, or @santi020k).
+  - Optional: run `python .github/scripts/apply_github_topics.py` with GITHUB_TOKEN (repo scope) to sync repository topics.
+-->
 <div align="center">
   <img src="./banner-santi020k.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" />
 </div>
@@ -25,7 +32,7 @@
 
 ## Santiago Molina Orozco
 
-**Engineering Leader & Full-Stack** · Medellin, Colombia · Remote worldwide
+**Engineering Leader & Full-Stack** · Medellín, Colombia · Remote worldwide
 
 > I lead engineering teams, architect resilient systems, and build tools that empower developers.
 
@@ -141,14 +148,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://gh-trophy.cdnsoft.net/?username=santi020k&theme=onedark&no-frame=true&no-bg=true&margin-w=6&column=6" alt="GitHub Trophies" />
-</div>
-
----
-
 ## ✍️ Latest writing
 
 <!-- BLOG-POST-LIST:START -->
@@ -156,7 +155,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 <tr>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/ai-coding-is-probabilistic-your-delivery-process-should-not-be-a94a9be1ef7d?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*koi2JwbYq-SlZKjTGCDE8g.png" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*koi2JwbYq-SlZKjTGCDE8g.png" width="270" alt="Cover: AI Coding Is Probabilistic. Your Delivery Process Should Not Be" /><br />
     <strong>AI Coding Is Probabilistic. Your Delivery Process Should Not Be</strong>
   </a>
   <br /><sub>📅 Apr 16, 2026</sub>
@@ -164,7 +163,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 </td>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/boosting-code-quality-and-efficiency-with-my-eslint-configuration-library-3a4cbc1993a7?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*4GWuByvN3HVGuqtJCo1czg.png" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*4GWuByvN3HVGuqtJCo1czg.png" width="270" alt="Cover: Boosting Code Quality and Efficiency with My ESLint Configuration Library" /><br />
     <strong>Boosting Code Quality and Efficiency with My ESLint Configuration Library</strong>
   </a>
   <br /><sub>📅 Nov 23, 2024</sub>
@@ -172,7 +171,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 </td>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/configuring-mongodb-with-homebrew-on-macos-converting-a-standalone-instance-to-a-replica-set-482623476dcf?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*_Gn06J5V6DE1lqR1Q3BkbA.png" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*_Gn06J5V6DE1lqR1Q3BkbA.png" width="270" alt="Cover: Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica Set" /><br />
     <strong>Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica Set</strong>
   </a>
   <br /><sub>📅 Apr 05, 2024</sub>
@@ -182,7 +181,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 <tr>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/storybook-in-action-with-next-js-tailwind-and-typescript-dd95875856a2?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*g3wL5hXw8uUTGK1UCYTxHg.png" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*g3wL5hXw8uUTGK1UCYTxHg.png" width="270" alt="Cover: Storybook in Action with Next.js, Tailwind and TypeScript" /><br />
     <strong>Storybook in Action with Next.js, Tailwind and TypeScript</strong>
   </a>
   <br /><sub>📅 Mar 29, 2024</sub>
@@ -190,7 +189,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 </td>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/development-workflow-with-husky-for-next-js-eslint-and-vitest-integration-d75548e48092?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*oOy-Xo8rYfxA_44Ud6vTHA.png" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*oOy-Xo8rYfxA_44Ud6vTHA.png" width="270" alt="Cover: Development Workflow with Husky for Next.js, ESLint, and Vitest Integration" /><br />
     <strong>Development Workflow with Husky for Next.js, ESLint, and Vitest Integration</strong>
   </a>
   <br /><sub>📅 Mar 21, 2024</sub>
@@ -198,7 +197,7 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 </td>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/building-the-best-next-js-typescript-standard-vitest-eslint-configuration-f6d91d6346e7?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*yH3zbrL0gZPh9D6bA7nVbA.jpeg" width="270" alt="" /><br />
+    <img src="https://cdn-images-1.medium.com/max/1024/1*yH3zbrL0gZPh9D6bA7nVbA.jpeg" width="270" alt="Cover: Building the Best Next.js TypeScript Standard Vitest ESLint Configuration" /><br />
     <strong>Building the Best Next.js TypeScript Standard Vitest ESLint Configuration</strong>
   </a>
   <br /><sub>📅 Mar 14, 2024</sub>
@@ -229,10 +228,4 @@ I'm at my best when a team is shipping but needs clearer standards, calmer relea
   <a href="https://calendar.app.google/3hfKdPhg1C6EQ3bY7">
     <img src="https://img.shields.io/badge/→_Book_a_call-black?style=for-the-badge&logo=Google+Calendar&logoColor=white" alt="Book a call" />
   </a>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 </div>

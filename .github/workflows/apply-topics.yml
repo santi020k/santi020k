@@ -1,0 +1,26 @@
+name: Apply repository topics
+
+# Sets topics on selected public repos via REST API. Add a classic PAT with `repo`
+# scope or a fine-grained PAT with Metadata read/write on those repos as repository
+# secret TOPICS_ADMIN_TOKEN, then run this workflow manually.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  apply-topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply topics from script
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOPICS_ADMIN_TOKEN }}
+        run: python .github/scripts/apply_github_topics.py
