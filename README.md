@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./s2k-banner.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" />
+  <img src="./banner-santi020k.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" />
 </div>
 
 <br />
