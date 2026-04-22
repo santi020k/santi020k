@@ -1,12 +1,5 @@
-<!--
-  Profile maintenance (not shown when rendered):
-  - Pin 6 repos: eslint-config-basic, santi020k (this profile), void, interviews, medium-posts, eslint-config-santi020k
-  - next-meetup and file-manager are archived (read-only on GitHub); keep unpinned unless you unarchive them.
-  - github.com/settings/profile: set Location to "Medellín, Colombia" and align Company with how you want to appear (employer, Independent, or @santi020k).
-  - Optional: run `python .github/scripts/apply_github_topics.py` with GITHUB_TOKEN (repo scope) to sync repository topics.
--->
 <div align="center">
-  <img src="./banner-santi020k.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" />
+  <img src="./banner.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" style="border-radius: 16px;" />
 </div>
 
 <br />
@@ -228,4 +221,10 @@ I'm at my best when a team is shipping but needs clearer standards, calmer relea
   <a href="https://calendar.app.google/3hfKdPhg1C6EQ3bY7">
     <img src="https://img.shields.io/badge/→_Book_a_call-black?style=for-the-badge&logo=Google+Calendar&logoColor=white" alt="Book a call" />
   </a>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
