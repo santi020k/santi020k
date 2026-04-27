@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.webp" alt="Santiago Molina — Engineering Leader & Full-Stack Architect" width="100%" style="border-radius: 16px;" />
+  <img src="./banner.webp" alt="Santiago Molina — Calm Systems. Clear Delivery." width="100%" />
 </div>
 
 <br />
