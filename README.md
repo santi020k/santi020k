@@ -147,6 +147,14 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 <table>
 <tr>
 <td align="center" width="33%" valign="top">
+  <a href="https://medium.com/@santi020k/what-is-new-in-santi020k-eslint-config-basic-v2-0-4c72bfa59137?source=rss-493338f85a63------2">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*LBisWq8grWEPG7GJCfdzZQ.png" width="270" alt="Cover: What Is New in @santi020k/eslint-config-basic v2.0" /><br />
+    <strong>What Is New in @santi020k/eslint-config-basic v2.0</strong>
+  </a>
+  <br /><sub>📅 Jun 22, 2026</sub>
+  <br /><sub>A practical tour of the shipped @santi020k/eslint-config-basic v2.0 release: ESLint 10, one main install,…</sub>
+</td>
+<td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/ai-coding-is-probabilistic-your-delivery-process-should-not-be-a94a9be1ef7d?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*koi2JwbYq-SlZKjTGCDE8g.png" width="270" alt="Cover: AI Coding Is Probabilistic. Your Delivery Process Should Not Be" /><br />
     <strong>AI Coding Is Probabilistic. Your Delivery Process Should Not Be</strong>
@@ -162,6 +170,8 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Nov 23, 2024</sub>
   <br /><sub>In a previous post, “Building the Best Next.js TypeScript Standard Vitest ESLint Configuration”, we discussed…</sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/configuring-mongodb-with-homebrew-on-macos-converting-a-standalone-instance-to-a-replica-set-482623476dcf?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*_Gn06J5V6DE1lqR1Q3BkbA.png" width="270" alt="Cover: Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica Set" /><br />
@@ -170,8 +180,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Apr 05, 2024</sub>
   <br /><sub>Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica SetSetting up a…</sub>
 </td>
-</tr>
-<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/storybook-in-action-with-next-js-tailwind-and-typescript-dd95875856a2?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*g3wL5hXw8uUTGK1UCYTxHg.png" width="270" alt="Cover: Storybook in Action with Next.js, Tailwind and TypeScript" /><br />
@@ -187,14 +195,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   </a>
   <br /><sub>📅 Mar 21, 2024</sub>
   <br /><sub>Workflow with Husky for Next.js, ESLint, and Vitest IntegrationImplementing a robust pre-commit system can…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/building-the-best-next-js-typescript-standard-vitest-eslint-configuration-f6d91d6346e7?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*yH3zbrL0gZPh9D6bA7nVbA.jpeg" width="270" alt="Cover: Building the Best Next.js TypeScript Standard Vitest ESLint Configuration" /><br />
-    <strong>Building the Best Next.js TypeScript Standard Vitest ESLint Configuration</strong>
-  </a>
-  <br /><sub>📅 Mar 14, 2024</sub>
-  <br /><sub>Next.js TypeScript Standard Vitest ESLint ConfigurationContinuing from our previous discussion on…</sub>
 </td>
 </tr>
 </table>
