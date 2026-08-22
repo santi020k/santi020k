@@ -31,11 +31,11 @@ def fetch_feed(url: str) -> ET.Element:
 
 def safe_https_url(value: str) -> str:
     """Return an escaped HTTPS URL or an empty string for untrusted feed values."""
-    decoded = html.unescape(value.strip())
-    parsed = urlparse(decoded)
+    normalized = value.strip()
+    parsed = urlparse(normalized)
     if parsed.scheme != "https" or not parsed.netloc:
         return ""
-    return html.escape(decoded, quote=True)
+    return html.escape(normalized, quote=True)
 
 
 def get_image(item: ET.Element) -> str | None:
@@ -49,14 +49,14 @@ def get_image(item: ET.Element) -> str | None:
     if node is not None and node.text:
         m = re.search(r'src="(https://[^"]+)"', node.text)
         if m:
-            return m.group(1)
+            return html.unescape(m.group(1))
 
     # 3. Fallback: description
     node = item.find("description")
     if node is not None and node.text:
         m = re.search(r'src="(https://[^"]+)"', node.text)
         if m:
-            return m.group(1)
+            return html.unescape(m.group(1))
 
     return None
 
