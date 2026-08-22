@@ -31,7 +31,9 @@ jobs:
         run: python .github/scripts/update_medium_posts.py
 
       - name: Commit profile changes
+        id: profile
         if: steps.medium.outcome == 'success'
+        continue-on-error: true
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -41,6 +43,7 @@ jobs:
 
       - name: Generate contribution snake
         id: snake
+        if: ${{ always() }}
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: santi020k
@@ -49,7 +52,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_dots=#1a1a1a,#333333,#555555,#888888,#ffffff
 
       - name: Publish contribution snake
-        if: steps.snake.outcome == 'success'
+        if: ${{ always() && steps.snake.outcome == 'success' }}
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
         with:
           target_branch: output
@@ -57,8 +60,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Report Medium update failure
-        if: steps.medium.outcome == 'failure'
+      - name: Report profile update failure
+        if: ${{ always() && (steps.medium.outcome == 'failure' || steps.profile.outcome == 'failure') }}
         run: |
-          echo 'The Medium update failed after the contribution snake was handled.' >&2
+          echo 'The profile README update failed after the contribution snake was handled.' >&2
           exit 1
