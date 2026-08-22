@@ -31,10 +31,11 @@ def fetch_feed(url: str) -> ET.Element:
 
 def safe_https_url(value: str) -> str:
     """Return an escaped HTTPS URL or an empty string for untrusted feed values."""
-    parsed = urlparse(value.strip())
+    decoded = html.unescape(value.strip())
+    parsed = urlparse(decoded)
     if parsed.scheme != "https" or not parsed.netloc:
         return ""
-    return html.escape(value.strip(), quote=True)
+    return html.escape(decoded, quote=True)
 
 
 def get_image(item: ET.Element) -> str | None:

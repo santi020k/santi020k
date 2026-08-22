@@ -37,6 +37,8 @@ jobs:
           git push
 
       - name: Generate contribution snake
+        id: snake
+        if: ${{ always() }}
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: santi020k
@@ -45,6 +47,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_dots=#1a1a1a,#333333,#555555,#888888,#ffffff
 
       - name: Publish contribution snake
+        if: ${{ always() && steps.snake.outcome == 'success' }}
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
         with:
           target_branch: output
