@@ -147,6 +147,14 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 <table>
 <tr>
 <td align="center" width="33%" valign="top">
+  <a href="https://medium.com/@santi020k/astro-and-alpine-patterns-for-fast-content-heavy-sites-d8cfc533ac72?source=rss-493338f85a63------2">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*dEyjuVM9nqSkSfcfoUGQ0Q.jpeg" width="270" alt="Cover: Astro and Alpine Patterns for Fast Content-Heavy Sites" /><br />
+    <strong>Astro and Alpine Patterns for Fast Content-Heavy Sites</strong>
+  </a>
+  <br /><sub>📅 Aug 14, 2026</sub>
+  <br /><sub>Astro ships zero JavaScript by default. Alpine adds interactivity with a small, focused footprint. Together…</sub>
+</td>
+<td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/astro-doctor-a-health-check-for-astro-codebases-9e7eecd699fd?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*KNhk3p2E6rFcTCEm4HFqYg.png" width="270" alt="Cover: Astro Doctor: A Health Check for Astro Codebases" /><br />
     <strong>Astro Doctor: A Health Check for Astro Codebases</strong>
@@ -162,6 +170,8 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Jun 22, 2026</sub>
   <br /><sub>A practical tour of the shipped @santi020k/eslint-config-basic v2.0 release: ESLint 10, one main install,…</sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/ai-coding-is-probabilistic-your-delivery-process-should-not-be-a94a9be1ef7d?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*koi2JwbYq-SlZKjTGCDE8g.png" width="270" alt="Cover: AI Coding Is Probabilistic. Your Delivery Process Should Not Be" /><br />
@@ -170,8 +180,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Apr 16, 2026</sub>
   <br /><sub>Why ESLint, tests, snapshots, and end-to-end checks matter even more when AI can generate fast, plausible,…</sub>
 </td>
-</tr>
-<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://towardsdev.com/boosting-code-quality-and-efficiency-with-my-eslint-configuration-library-3a4cbc1993a7?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*4GWuByvN3HVGuqtJCo1czg.png" width="270" alt="Cover: Boosting Code Quality and Efficiency with My ESLint Configuration Library" /><br />
@@ -187,14 +195,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   </a>
   <br /><sub>📅 Apr 05, 2024</sub>
   <br /><sub>Configuring MongoDB with Homebrew on macOS: Converting a Standalone Instance to a Replica SetSetting up a…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/storybook-in-action-with-next-js-tailwind-and-typescript-dd95875856a2?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*g3wL5hXw8uUTGK1UCYTxHg.png" width="270" alt="Cover: Storybook in Action with Next.js, Tailwind and TypeScript" /><br />
-    <strong>Storybook in Action with Next.js, Tailwind and TypeScript</strong>
-  </a>
-  <br /><sub>📅 Mar 29, 2024</sub>
-  <br /><sub>Storybook in Action with Next.js, Tailwind and TypeScriptContinuing from our previous post on optimizing…</sub>
 </td>
 </tr>
 </table>
