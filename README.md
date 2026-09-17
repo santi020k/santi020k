@@ -147,6 +147,14 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
 <table>
 <tr>
 <td align="center" width="33%" valign="top">
+  <a href="https://medium.com/@santi020k/why-i-built-between-contractions-d8bd87cfc018?source=rss-493338f85a63------2">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*GfRCtcTdbn62o5JRy7n5zg.jpeg" width="270" alt="Cover: Why I Built Between Contractions" /><br />
+    <strong>Why I Built Between Contractions</strong>
+  </a>
+  <br /><sub>📅 Aug 20, 2026</sub>
+  <br /><sub>Some projects begin with a market gap. Between Contractions began while Alejandra and I were waiting for our…</sub>
+</td>
+<td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/astro-and-alpine-patterns-for-fast-content-heavy-sites-d8cfc533ac72?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*dEyjuVM9nqSkSfcfoUGQ0Q.jpeg" width="270" alt="Cover: Astro and Alpine Patterns for Fast Content-Heavy Sites" /><br />
     <strong>Astro and Alpine Patterns for Fast Content-Heavy Sites</strong>
@@ -162,6 +170,8 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Jun 28, 2026</sub>
   <br /><sub>Why I built Astro Doctor: a CLI, ESLint plugin, editor extension, GitHub Action, and agent skill system for…</sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/what-is-new-in-santi020k-eslint-config-basic-v2-0-4c72bfa59137?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*LBisWq8grWEPG7GJCfdzZQ.png" width="270" alt="Cover: What Is New in @santi020k/eslint-config-basic v2.0" /><br />
@@ -170,8 +180,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   <br /><sub>📅 Jun 22, 2026</sub>
   <br /><sub>A practical tour of the shipped @santi020k/eslint-config-basic v2.0 release: ESLint 10, one main install,…</sub>
 </td>
-</tr>
-<tr>
 <td align="center" width="33%" valign="top">
   <a href="https://medium.com/@santi020k/why-developer-experience-work-should-be-measured-like-product-work-2c314c3655bf?source=rss-493338f85a63------2">
     <img src="https://cdn-images-1.medium.com/max/1024/1*kk9hBPswnvNxMH2xqnm2Lg.jpeg" width="270" alt="Cover: Why Developer Experience Work Should Be Measured Like Product Work" /><br />
@@ -187,14 +195,6 @@ Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi02
   </a>
   <br /><sub>📅 Apr 16, 2026</sub>
   <br /><sub>Why ESLint, tests, snapshots, and end-to-end checks matter even more when AI can generate fast, plausible,…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://towardsdev.com/boosting-code-quality-and-efficiency-with-my-eslint-configuration-library-3a4cbc1993a7?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*4GWuByvN3HVGuqtJCo1czg.png" width="270" alt="Cover: Boosting Code Quality and Efficiency with My ESLint Configuration Library" /><br />
-    <strong>Boosting Code Quality and Efficiency with My ESLint Configuration Library</strong>
-  </a>
-  <br /><sub>📅 Nov 23, 2024</sub>
-  <br /><sub>In a previous post, “Building the Best Next.js TypeScript Standard Vitest ESLint Configuration”, we discussed…</sub>
 </td>
 </tr>
 </table>
