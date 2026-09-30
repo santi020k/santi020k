@@ -3,11 +3,14 @@ Fetches latest Medium posts for santi020k and updates the README
 with a visual card grid (image + title + date + excerpt).
 """
 
+from __future__ import annotations
+
 import re
 import html
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from urllib.parse import urlparse
 
 FEED_URL = "https://medium.com/feed/@santi020k"
 MAX_POSTS = 6  # 2 rows × 3 columns
@@ -26,6 +29,15 @@ def fetch_feed(url: str) -> ET.Element:
         return ET.fromstring(resp.read())
 
 
+def safe_https_url(value: str) -> str:
+    """Return an escaped HTTPS URL or an empty string for untrusted feed values."""
+    normalized = value.strip()
+    parsed = urlparse(normalized)
+    if parsed.scheme != "https" or not parsed.netloc:
+        return ""
+    return html.escape(normalized, quote=True)
+
+
 def get_image(item: ET.Element) -> str | None:
     # 1. media:content
     media = item.find("media:content", NAMESPACES)
@@ -37,14 +49,14 @@ def get_image(item: ET.Element) -> str | None:
     if node is not None and node.text:
         m = re.search(r'src="(https://[^"]+)"', node.text)
         if m:
-            return m.group(1)
+            return html.unescape(m.group(1))
 
     # 3. Fallback: description
     node = item.find("description")
     if node is not None and node.text:
         m = re.search(r'src="(https://[^"]+)"', node.text)
         if m:
-            return m.group(1)
+            return html.unescape(m.group(1))
 
     return None
 
@@ -72,14 +84,16 @@ def parse_date(raw: str) -> str:
 
 def build_card(post: dict) -> str:
     cover_alt = html.escape(f"Cover: {post['title']}")
+    post_url = safe_https_url(post["url"])
+    image_url = safe_https_url(post["image"] or "")
     img_tag = (
-        f'<img src="{post["image"]}" width="270" alt="{cover_alt}" /><br />'
-        if post["image"]
+        f'<img src="{image_url}" width="270" alt="{cover_alt}" /><br />'
+        if image_url
         else ""
     )
     return (
         f'<td align="center" width="33%" valign="top">\n'
-        f'  <a href="{post["url"]}">\n'
+        f'  <a href="{post_url}">\n'
         f"    {img_tag}\n"
         f'    <strong>{html.escape(post["title"])}</strong>\n'
         f"  </a>\n"
@@ -101,6 +115,8 @@ def build_table(posts: list[dict]) -> str:
 def main():
     root = fetch_feed(FEED_URL)
     channel = root.find("channel")
+    if channel is None:
+        raise ValueError("Medium feed is missing its channel element")
     items = channel.findall("item")[:MAX_POSTS]
 
     posts = []
@@ -121,7 +137,9 @@ def main():
         content = f.read()
 
     pattern = r"<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->"
-    new_content = re.sub(pattern, block, content, flags=re.DOTALL)
+    new_content, replacements = re.subn(pattern, block, content, flags=re.DOTALL)
+    if replacements != 1:
+        raise ValueError("README must contain exactly one blog post marker block")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)
