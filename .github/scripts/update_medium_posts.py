@@ -1,133 +1,138 @@
-"""
-Fetches latest Medium posts for santi020k and updates the README
-with a visual card grid (image + title + date + excerpt).
-"""
+"""Refresh the compact Medium reading list without changing the curated profile."""
 
-import re
+from __future__ import annotations
+
 import html
+import sys
+import tempfile
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 FEED_URL = "https://medium.com/feed/@santi020k"
-MAX_POSTS = 6  # 2 rows × 3 columns
-COLS = 3
+MAX_POSTS = 3
+MAX_FEED_BYTES = 2_000_000
+START_MARKER = "<!-- BLOG-POST-LIST:START -->"
+END_MARKER = "<!-- BLOG-POST-LIST:END -->"
+README_PATH = Path(__file__).resolve().parents[2] / "README.md"
+POST_HOSTS = {"medium.com", "www.medium.com", "towardsdev.com", "www.towardsdev.com"}
 
-NAMESPACES = {
-    "media": "http://search.yahoo.com/mrss/",
-    "content": "http://purl.org/rss/1.0/modules/content/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-}
+
+@dataclass(frozen=True)
+class Post:
+    title: str
+    url: str
+    published: datetime
 
 
 def fetch_feed(url: str) -> ET.Element:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return ET.fromstring(resp.read())
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(request, timeout=20) as response:
+        content = response.read(MAX_FEED_BYTES + 1)
+    if len(content) > MAX_FEED_BYTES:
+        raise ValueError("Feed exceeds the size limit")
+    return ET.fromstring(content)
 
 
-def get_image(item: ET.Element) -> str | None:
-    # 1. media:content
-    media = item.find("media:content", NAMESPACES)
-    if media is not None and media.get("url"):
-        return media.get("url")
-
-    # 2. First <img src="..."> inside content:encoded
-    node = item.find("content:encoded", NAMESPACES)
-    if node is not None and node.text:
-        m = re.search(r'src="(https://[^"]+)"', node.text)
-        if m:
-            return m.group(1)
-
-    # 3. Fallback: description
-    node = item.find("description")
-    if node is not None and node.text:
-        m = re.search(r'src="(https://[^"]+)"', node.text)
-        if m:
-            return m.group(1)
-
-    return None
+def clean_url(raw: str) -> str:
+    """Allow known publication hosts and remove RSS attribution parameters."""
+    try:
+        url = urlsplit(raw.strip())
+        if (
+            url.scheme != "https"
+            or url.hostname not in POST_HOSTS
+            or url.username is not None
+            or url.password is not None
+            or url.port not in (None, 443)
+            or not url.path.strip("/")
+        ):
+            return ""
+    except ValueError:
+        return ""
+    return urlunsplit(("https", url.hostname, url.path, "", ""))
 
 
-def get_excerpt(item: ET.Element, max_chars: int = 110) -> str:
-    for node in [item.find("content:encoded", NAMESPACES), item.find("description")]:
-        if node is not None and node.text:
-            text = re.sub(r"<[^>]+>", "", node.text)
-            text = html.unescape(text).strip()
-            text = re.sub(r"\s+", " ", text)
-            if len(text) > max_chars:
-                text = text[:max_chars].rsplit(" ", 1)[0] + "…"
-            return text
-    return ""
-
-
-def parse_date(raw: str) -> str:
-    for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT"):
-        try:
-            return datetime.strptime(raw.strip(), fmt).strftime("%b %d, %Y")
-        except ValueError:
-            continue
-    return raw.strip()
-
-
-def build_card(post: dict) -> str:
-    cover_alt = html.escape(f"Cover: {post['title']}")
-    img_tag = (
-        f'<img src="{post["image"]}" width="270" alt="{cover_alt}" /><br />'
-        if post["image"]
-        else ""
-    )
-    return (
-        f'<td align="center" width="33%" valign="top">\n'
-        f'  <a href="{post["url"]}">\n'
-        f"    {img_tag}\n"
-        f'    <strong>{html.escape(post["title"])}</strong>\n'
-        f"  </a>\n"
-        f'  <br /><sub>📅 {post["date"]}</sub>\n'
-        f'  <br /><sub>{html.escape(post["excerpt"])}</sub>\n'
-        f"</td>"
-    )
-
-
-def build_table(posts: list[dict]) -> str:
-    rows = []
-    for i in range(0, len(posts), COLS):
-        chunk = posts[i : i + COLS]
-        cells = "\n".join(build_card(p) for p in chunk)
-        rows.append(f"<tr>\n{cells}\n</tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
-
-
-def main():
-    root = fetch_feed(FEED_URL)
+def parse_posts(root: ET.Element, now: datetime | None = None) -> list[Post]:
     channel = root.find("channel")
-    items = channel.findall("item")[:MAX_POSTS]
+    if channel is None:
+        raise ValueError("Expected an RSS channel")
+    current_time = now if now is not None else datetime.now(timezone.utc)
+    posts: list[Post] = []
+    for item in channel.findall("item"):
+        title = " ".join((item.findtext("title") or "").split())
+        url = clean_url(item.findtext("link") or "")
+        try:
+            published = parsedate_to_datetime(item.findtext("pubDate") or "")
+        except (TypeError, ValueError, OverflowError):
+            continue
+        if not title or not url or published.tzinfo is None or published > current_time:
+            continue
+        posts.append(Post(title, url, published))
 
-    posts = []
-    for item in items:
-        title = (item.findtext("title") or "").strip()
-        url = (item.findtext("link") or "").strip()
-        pub_date = parse_date(item.findtext("pubDate") or "")
-        image = get_image(item)
-        excerpt = get_excerpt(item)
-        posts.append(
-            {"title": title, "url": url, "date": pub_date, "image": image, "excerpt": excerpt}
+    unique: dict[str, Post] = {}
+    for post in sorted(posts, key=lambda post: post.published, reverse=True):
+        unique.setdefault(post.url, post)
+    result = list(unique.values())[:MAX_POSTS]
+    if not result:
+        raise ValueError("Feed has no valid published posts; keeping the existing list")
+    return result
+
+
+def build_list(posts: list[Post]) -> str:
+    items = []
+    for post in posts:
+        date = post.published.astimezone(timezone.utc).strftime("%b %d, %Y")
+        items.append(
+            f'  <li><a href="{html.escape(post.url, quote=True)}">'
+            f"{html.escape(post.title)}</a> · {date}</li>"
         )
+    return "<ul>\n" + "\n".join(items) + "\n</ul>"
 
-    table = build_table(posts)
-    block = f"<!-- BLOG-POST-LIST:START -->\n{table}\n<!-- BLOG-POST-LIST:END -->"
 
-    with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
+def replace_posts(content: str, posts: list[Post]) -> str:
+    if content.count(START_MARKER) != 1 or content.count(END_MARKER) != 1:
+        raise ValueError("README must contain exactly one pair of blog markers")
+    start = content.index(START_MARKER) + len(START_MARKER)
+    end = content.index(END_MARKER)
+    if end < start:
+        raise ValueError("Blog markers are in the wrong order")
+    return content[:start] + "\n" + build_list(posts) + "\n" + content[end:]
 
-    pattern = r"<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->"
-    new_content = re.sub(pattern, block, content, flags=re.DOTALL)
 
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_content)
+def update_readme(path: Path, root: ET.Element) -> int:
+    posts = parse_posts(root)
+    content = path.read_text(encoding="utf-8")
+    updated = replace_posts(content, posts)
+    if updated != content:
+        temporary_path: Path | None = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="w", encoding="utf-8", dir=path.parent, delete=False
+            ) as temporary:
+                temporary_path = Path(temporary.name)
+                temporary.write(updated)
+            temporary_path.chmod(path.stat().st_mode)
+            temporary_path.replace(path)
+        finally:
+            if temporary_path is not None:
+                temporary_path.unlink(missing_ok=True)
+    return len(posts)
 
-    print(f"✅ README updated with {len(posts)} posts")
+
+def main() -> int:
+    try:
+        count = update_readme(README_PATH, fetch_feed(FEED_URL))
+    except (OSError, urllib.error.URLError, ET.ParseError, ValueError) as error:
+        print(f"Medium refresh failed ({type(error).__name__}); README unchanged.", file=sys.stderr)
+        return 1
+    print(f"README refreshed with {count} Medium posts.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
