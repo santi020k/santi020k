@@ -3,16 +3,43 @@
   <img src="./assets/profile-light.svg" alt="Calm systems. Clear delivery." width="1200" />
 </picture>
 
-# Santiago Molina
+<h1 align="center">Santiago Molina</h1>
 
-**Engineering leader · Full-stack architect · Product builder**\
-Medellín, Colombia · Working with teams worldwide
+<p align="center">
+  <strong>Engineering leader · Full-stack architect · Product builder</strong><br />
+  Medellín, Colombia · Working with teams worldwide
+</p>
+
+<p align="center">
+  <a href="https://santi020k.com/">
+    <img src="https://img.shields.io/badge/Website-620AE6?style=for-the-badge&amp;logo=safari&amp;logoColor=white" alt="Visit santi020k.com" />
+  </a>
+  <a href="https://santi020k.com/resume/">
+    <img src="https://img.shields.io/badge/Résumé-7C3AED?style=for-the-badge&amp;logo=readdotcv&amp;logoColor=white" alt="Read Santiago Molina's résumé" />
+  </a>
+  <a href="https://linkedin.com/in/santi020k">
+    <img src="https://img.shields.io/badge/LinkedIn-5B21B6?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect with Santiago Molina on LinkedIn" />
+  </a>
+  <a href="mailto:hi@santi020k.com">
+    <img src="https://img.shields.io/badge/Email-332E38?style=for-the-badge&amp;logo=minutemailer&amp;logoColor=white" alt="Email Santiago Molina" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="mailto:hi@santi020k.com?subject=Engineering%20leadership%20opportunity">
+    <img src="https://img.shields.io/badge/Available_for-tech_lead%2C_staff_%26_leadership_roles-EEE9F7?style=flat-square&amp;labelColor=620AE6&amp;color=EEE9F7" alt="Available for tech lead, staff, and engineering leadership roles" />
+  </a>
+</p>
 
 I help teams modernize systems, improve developer experience, and ship with confidence. Since 2014, my work has spanned commerce, sports media, esports, developer tools, and native apps. I stay close to the code while helping teams make clearer technical decisions.
 
-**[Website](https://santi020k.com/)** · **[Résumé](https://santi020k.com/resume/)** · **[LinkedIn](https://linkedin.com/in/santi020k)** · **[Email](mailto:hi@santi020k.com)**
+[Selected work](#selected-work) · [Developer tools](#developer-tools) · [Products](#products) · [How I work](#how-i-work) · [Writing](#writing) · [Community](#community) · [Activity](#github-activity)
 
-[Selected work](#selected-work) · [Developer tools](#developer-tools) · [Products](#products) · [Writing](#writing) · [Community](#community) · [Activity](#github-activity)
+## Current focus
+
+- **Lead** — Resilient systems, clearer architecture, and delivery practices teams can trust.
+- **Build** — Open-source tools that make interface quality and engineering feedback easier to repeat.
+- **Share** — Practical writing, workshops, and community work through ReactJS Colombia.
 
 ## Selected work
 
@@ -63,6 +90,21 @@ Personal products give me room to work across the whole experience: design, impl
 - **Respect the user.** Treat performance, privacy, and understandable interfaces as part of the product.
 
 My core stack is **TypeScript, React, Astro, Node.js, and Cloudflare**. My product work also spans **Swift / SwiftUI, Kotlin / Compose, React Native, and Rust tooling**.
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-332E38?style=flat-square&amp;logo=typescript&amp;logoColor=9F64F7" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-332E38?style=flat-square&amp;logo=react&amp;logoColor=9F64F7" alt="React" />
+  <img src="https://img.shields.io/badge/Astro-332E38?style=flat-square&amp;logo=astro&amp;logoColor=9F64F7" alt="Astro" />
+  <img src="https://img.shields.io/badge/Node.js-332E38?style=flat-square&amp;logo=nodedotjs&amp;logoColor=9F64F7" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Cloudflare-332E38?style=flat-square&amp;logo=cloudflare&amp;logoColor=9F64F7" alt="Cloudflare" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Swift-EEE9F7?style=flat-square&amp;logo=swift&amp;logoColor=620AE6" alt="Swift" />
+  <img src="https://img.shields.io/badge/Kotlin-EEE9F7?style=flat-square&amp;logo=kotlin&amp;logoColor=620AE6" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/React_Native-EEE9F7?style=flat-square&amp;logo=react&amp;logoColor=620AE6" alt="React Native" />
+  <img src="https://img.shields.io/badge/Rust-EEE9F7?style=flat-square&amp;logo=rust&amp;logoColor=620AE6" alt="Rust" />
+</p>
 
 ## Writing
 
