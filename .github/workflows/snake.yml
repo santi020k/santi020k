@@ -27,7 +27,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate light and dark contribution animations
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        # The repository allowlist permits Platane/snk@*, not its sub-actions.
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: santi020k
           outputs: |

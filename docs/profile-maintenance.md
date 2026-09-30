@@ -79,7 +79,9 @@ appear after a successful authorized workflow run on `main`; a local preview
 does not demonstrate that publication.
 
 The restored actions are pinned to verified stable releases: snk 3.5.0 and
-ghaction-github-pages 5.0.0. The publisher uses Node 24 and requires an Actions
+ghaction-github-pages 5.0.0. Use the root `Platane/snk` action, which supports SVG
+output and matches the repository's existing `Platane/snk@*` allowlist; the
+`svg-only` sub-action does not match that policy. The publisher uses Node 24 and requires an Actions
 runner at least 2.327.1; GitHub-hosted `ubuntu-latest` is the intended environment.
 
 ## Source review
