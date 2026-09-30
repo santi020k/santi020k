@@ -16,7 +16,7 @@ procedure are tracked in `CHANGELOG.md`.
 5. Working principles and a compact technology summary.
 6. Three curated website articles and three automatically refreshed Medium posts.
 7. Community contributions and a recorded talk.
-8. GitHub activity cards, an optional contribution snake, and a clear invitation to collaborate.
+8. GitHub activity cards, a visible contribution snake, and a clear invitation to collaborate.
 
 Keep the profile useful to engineering teams, hiring managers, and collaborators.
 Describe the problem and the contribution before listing technologies. Avoid
@@ -62,8 +62,8 @@ external providers, as described below.
 - Both providers have separate light/dark palettes; entrance animations are
   disabled. Cards wrap naturally on narrow screens. No private token is sent to
   a widget service, and no self-hosted infrastructure is required.
-- The [contribution snake](https://github.com/Platane/snk) is opt-in through a
-  collapsed details element. Reduced-motion viewers receive a static alternative.
+- The [contribution snake](https://github.com/Platane/snk) is visible in the activity
+  section. Reduced-motion viewers receive a static alternative.
   Its GitHub Actions job generates new images weekly and when its workflow changes
   on `main`. Generation must succeed before publication; `keep_history: true`
   preserves existing output history. It runs independently of the Medium refresh.
@@ -137,7 +137,7 @@ Render the Markdown through GitHub’s Markdown API or GitHub’s preview. Check
 and dark themes at desktop and narrow mobile widths. Check image loading, banner
 proportions, section links, text wrapping, table overflow, and keyboard focus.
 Also verify all widget images load, inspect their visible values for provider-error
-cards, expand the snake, and check its reduced-motion alternative.
+cards, and check the snake's reduced-motion alternative.
 Before/after captures should use the same viewport, theme, and rendering surface.
 Local previews approximate GitHub’s surrounding layout; the final live profile must
 be checked after an authorized push and merge. Keep screenshots out of Git.

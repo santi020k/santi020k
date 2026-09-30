@@ -161,18 +161,15 @@ I’ve helped co-organize **[ReactJS Colombia](https://santi020k.com/portfolio/r
 
 Language totals reflect public repository code, not proficiency. [Explore my repositories →](https://github.com/santi020k?tab=repositories)
 
-<details>
-  <summary>Watch the contribution snake</summary>
-  <p>
-    <a href="https://github.com/santi020k">
-      <picture>
-        <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contribution-paused.svg" />
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
-        <img src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" alt="Contribution snake animation. Open Santiago’s GitHub profile for contribution history." width="900" />
-      </picture>
-    </a>
-  </p>
-</details>
+<p>
+  <a href="https://github.com/santi020k">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contribution-paused.svg" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
+      <img src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" alt="Contribution snake animation. Open Santiago’s GitHub profile for contribution history." width="900" />
+    </picture>
+  </a>
+</p>
 
 ## Let’s build something useful
 
