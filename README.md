@@ -1,230 +1,139 @@
-<div align="center">
-  <img src="./banner.webp" alt="Santiago Molina — Calm Systems. Clear Delivery." width="100%" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg" />
+  <img src="./assets/profile-light.svg" alt="Calm systems. Clear delivery." width="1200" />
+</picture>
 
-<br />
+# Santiago Molina
 
-<div align="center">
-  <a href="https://linkedin.com/in/santi020k">
-    <img src="https://img.shields.io/badge/LinkedIn-santi020k-black?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://santi020k.com">
-    <img src="https://img.shields.io/badge/Website-santi020k.com-black?style=for-the-badge&logo=Astro&logoColor=white" alt="Website" />
-  </a>
-  <a href="https://medium.com/@santi020k">
-    <img src="https://img.shields.io/badge/Medium-@santi020k-black?style=for-the-badge&logo=Medium&logoColor=white" alt="Medium" />
-  </a>
-  <a href="mailto:hi@santi020k.com">
-    <img src="https://img.shields.io/badge/Email-hi@santi020k.com-black?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
+**Engineering leader · Full-stack architect · Product builder**\
+Medellín, Colombia · Working with teams worldwide
 
-<br />
+I help teams modernize systems, improve developer experience, and ship with confidence. Since 2014, my work has spanned commerce, sports media, esports, developer tools, and native apps. I stay close to the code while helping teams make clearer technical decisions.
 
----
+**[Website](https://santi020k.com/)** · **[Résumé](https://santi020k.com/resume/)** · **[LinkedIn](https://linkedin.com/in/santi020k)** · **[Email](mailto:hi@santi020k.com)**
 
-## Santiago Molina Orozco
+[Selected work](#selected-work) · [Developer tools](#developer-tools) · [Products](#products) · [Writing](#writing) · [Community](#community) · [Activity](#github-activity)
 
-**Engineering Leader & Full-Stack** · Medellín, Colombia · Remote worldwide
+## Selected work
 
-> I lead engineering teams, architect resilient systems, and build tools that empower developers.
+**[Void.GG — technical leadership](https://santi020k.com/portfolio/void/)**\
+Led architecture and delivery across web, mobile, backend, and real-time esports systems. Improved performance and deployment workflows while helping a 14-person team deliver.
 
-12+ years shipping full-stack products — from high-traffic sports media platforms to esports systems, SaaS products, and open-source tooling. I specialise in technical leadership, developer experience, and the kind of architecture decisions that keep teams moving without letting quality slip.
+**[X Games — full-stack engineering](https://santi020k.com/portfolio/xgames/)**\
+Built live-stream access controls, geo-aware experiences, and Google Ad Manager integrations for a sports media platform with demanding event windows.
 
-Currently **open to tech lead, full-stack, and engineering leadership roles**.
+**[Smith Commerce — storefront modernization](https://santi020k.com/portfolio/smith-commerce/)**\
+Rebuilt Marcone’s storefront around headless commerce, performance, and accessibility, with modular boundaries that let teams work independently.
 
----
+**[Optic Power / Codepwr — product engineering](https://santi020k.com/portfolio/optic-power/)**\
+Shipped across gaming and SaaS products, including Team Liquid, NurtureBoss, and Stardust.gg, with work spanning APIs, frontend architecture, and performance.
 
-## 🧭 Right now
+[Explore my experience →](https://santi020k.com/work/)
 
-- 🏗️ Building and maintaining [santi020k.com](https://santi020k.com) — my personal site, blog, and portfolio
-- 🎙️ Speaking at community events about React, DX, and engineering leadership — [upcoming sessions](https://santi020k.com/speaking)
-- 📝 Writing practical engineering content — [Medium](https://medium.com/@santi020k) · [Blog](https://santi020k.com/blog) · 26+ posts published
-- 🌱 Exploring Python and Data Engineering
-- 👥 Co-organising meetups and workshops through [ReactJS Colombia](https://www.meetup.com/reactjs-medellin/) since 2017
+## Developer tools
 
----
+I build tools around problems I encounter in my own projects: consistent interfaces, useful feedback, and dependable delivery.
 
-## 📌 Selected work
+| Project | What it helps with |
+| :--- | :--- |
+| **[Lumen UI](https://github.com/santi020k/lumen)** | Accessible components and shared design foundations for Astro, React, Web Components, and native interfaces. [Explore →](https://lumen.santi020k.com/) |
+| **[Astro Doctor](https://github.com/santi020k/astro-doctor)** | Diagnostics for performance, accessibility, security, and Astro best practices, in the editor and CI. [Explore →](https://doctor.santi020k.com/) |
+| **[Quality](https://github.com/santi020k/quality)** | One predictable command to run the right code-quality tools across languages and platforms. [Explore →](https://quality.santi020k.com/) |
+| **[ESLint Config Basic](https://github.com/santi020k/eslint-config-basic)** | JavaScript and TypeScript flat configs with framework detection and focused integrations. [Explore →](https://eslint.santi020k.com/) |
+| **[Dep Beacon](https://github.com/santi020k/dep-beacon)** | Dependency versions, update guidance, and OSV vulnerability signals inside VS Code and Zed. [Explore →](https://beacon.santi020k.com/) |
+| **[Santi020k Theme](https://github.com/santi020k/santi020k-theme)** | A shared violet palette for editors, terminals, browsers, and web interfaces. [Explore →](https://theme.santi020k.com/) |
 
-| Project | Role | Impact |
-|---|---|---|
-| **[Void.GG](https://void.gg)** | Technical Lead | 35% better performance · 60% faster deploys · 95%+ sprint velocity |
-| **[X Games](https://www.xgames.com/)** | Senior Full Stack Engineer | 56+ PRs · Full GAM ad infrastructure · Geo-based live stream access control |
-| **[Optic Power / Codepwr](https://www.codepwr.com/)** | Senior Full Stack Engineer | 40% better API performance · Shipped Team Liquid, NurtureBoss & Stardust.gg |
-| **[eslint-config-basic](https://github.com/santi020k/eslint-config-basic)** | Author | Open-source ESLint config for TypeScript + React projects |
+Also building [Commitprompt](https://github.com/santi020k/commitprompt) for Conventional Commits, [OG](https://github.com/santi020k/og) for social images, and [Auth](https://github.com/santi020k/auth) for reusable authentication policy. [Observatory](https://github.com/santi020k/observatory) brings repository, package, and product signals together in a source-available operations dashboard.
 
----
+## Products
 
-## ⚡ Tech stack
+Personal products give me room to work across the whole experience: design, implementation, accessibility, privacy, and delivery.
 
-**Frontend**
+- **[PostLens](https://postlens.santi020k.com/)** — A visual content studio for iPhone and iPad, with core photo analysis and editing on device. *SwiftUI · PhotoKit · Vision*
+- **[Between Contractions](https://between.santi020k.com/)** — A calm, bilingual contraction timer with native apps, watches, widgets, and optional partner coordination. *SwiftUI · Kotlin · Cloudflare*
+- **[RoadScore](https://roadscore.santi020k.com/)** — An offline road-trip card game with a shared scoreboard and private trip journal. *React Native · Expo · TypeScript*
+- **[Coolstead](https://coolstead.santi020k.com/)** — A macOS menu-bar app for thermal monitoring and gradual, safety-bounded fan control. *Swift · macOS*
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js)
-![Astro](https://img.shields.io/badge/-Astro-black?style=for-the-badge&logo=astro&logoColor=FDFDFE)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=redux)
+[Browse all projects and case studies →](https://santi020k.com/projects/)
 
-**Backend & Data**
+## How I work
 
-![Node.js](https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/-Express-black?style=for-the-badge&logo=express)
-![GraphQL](https://img.shields.io/badge/-GraphQL-black?style=for-the-badge&logo=graphql)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb)
-![Supabase](https://img.shields.io/badge/-Supabase-black?style=for-the-badge&logo=supabase&logoColor=white)
+- **Stay hands-on.** Connect architecture decisions to the code, the product, and the people maintaining it.
+- **Make quality repeatable.** Use tests, accessibility checks, clear documentation, and release automation to shorten feedback loops.
+- **Respect the user.** Treat performance, privacy, and understandable interfaces as part of the product.
 
-**Learning**
+My core stack is **TypeScript, React, Astro, Node.js, and Cloudflare**. My product work also spans **Swift / SwiftUI, Kotlin / Compose, React Native, and Rust tooling**.
 
-![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/-Airflow-black?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![dbt](https://img.shields.io/badge/-dbt-black?style=for-the-badge&logo=dbt&logoColor=white)
+## Writing
 
-**Quality & DX**
+I write about the systems I build and the tradeoffs behind them. Start with:
 
-![Vitest](https://img.shields.io/badge/-Vitest-black?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/-Playwright-black?style=for-the-badge&logo=playwright&logoColor=white)
-![ESLint](https://img.shields.io/badge/-ESLint-black?style=for-the-badge&logo=eslint&logoColor=white)
-![Zod](https://img.shields.io/badge/-Zod-black?style=for-the-badge&logo=zod&logoColor=white)
-![Storybook](https://img.shields.io/badge/-Storybook-black?style=for-the-badge&logo=storybook&logoColor=white)
+- **[How I Built the santi020k Developer Tool Ecosystem](https://santi020k.com/blog/building-santi020k-developer-tool-ecosystem/)** — How the tools connect across real projects.
+- **[Why Developer Experience Work Should Be Measured Like Product Work](https://santi020k.com/blog/why-developer-experience-work-should-be-measured-like-product-work/)** — Making engineering improvements visible.
+- **[AI Coding Is Probabilistic. Your Delivery Process Should Not Be.](https://santi020k.com/blog/ai-coding-is-probabilistic-your-delivery-process-should-not-be/)** — Why fast code generation still needs dependable verification.
 
-**Platform & Infra**
-
-![Vercel](https://img.shields.io/badge/-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-black?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-black?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-black?style=for-the-badge&logo=github-actions&logoColor=white)
-
----
-
-## 🎙️ Speaking
-
-I speak at meetups and workshops on engineering leadership, developer experience, and frontend architecture. Past sessions include:
-
-- **Surviving Technical Interviews in React** — ReactJS Medellín 2024 · ~110 attendees · [▶ Video](https://www.youtube.com/watch?v=UtBZP93cOUs) · [Slides](https://interviews.santi020k.com/1)
-- **How to Automate Front End Processes (and Not Die Trying)** — ReactJS Medellín 2024 · ~90 attendees
-
-Interested in having me speak? Reach out at [hi@santi020k.com](mailto:hi@santi020k.com) or visit [santi020k.com/speaking](https://santi020k.com/speaking/).
-
----
-
-## 📊 GitHub stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=santi020k&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888" alt="GitHub Streak" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=santi020k&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santi020k&hide=TeX&layout=compact&langs_count=10&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=cccccc" alt="Top Languages" height="165" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=santi020k&theme=github-compact&hide_border=true&bg_color=00000000&color=ffffff&line=888888&point=ffffff&area=true&area_color=333333" alt="Activity Graph" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
-
-## ✍️ Latest writing
+### Latest on Medium
 
 <!-- BLOG-POST-LIST:START -->
-<table>
-<tr>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/why-i-built-between-contractions-d8bd87cfc018?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*GfRCtcTdbn62o5JRy7n5zg.jpeg" width="270" alt="Cover: Why I Built Between Contractions" /><br />
-    <strong>Why I Built Between Contractions</strong>
-  </a>
-  <br /><sub>📅 Aug 20, 2026</sub>
-  <br /><sub>Some projects begin with a market gap. Between Contractions began while Alejandra and I were waiting for our…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/astro-and-alpine-patterns-for-fast-content-heavy-sites-d8cfc533ac72?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*dEyjuVM9nqSkSfcfoUGQ0Q.jpeg" width="270" alt="Cover: Astro and Alpine Patterns for Fast Content-Heavy Sites" /><br />
-    <strong>Astro and Alpine Patterns for Fast Content-Heavy Sites</strong>
-  </a>
-  <br /><sub>📅 Aug 14, 2026</sub>
-  <br /><sub>Astro ships zero JavaScript by default. Alpine adds interactivity with a small, focused footprint. Together…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://towardsdev.com/astro-doctor-a-health-check-for-astro-codebases-9e7eecd699fd?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*KNhk3p2E6rFcTCEm4HFqYg.png" width="270" alt="Cover: Astro Doctor: A Health Check for Astro Codebases" /><br />
-    <strong>Astro Doctor: A Health Check for Astro Codebases</strong>
-  </a>
-  <br /><sub>📅 Jun 28, 2026</sub>
-  <br /><sub>Why I built Astro Doctor: a CLI, ESLint plugin, editor extension, GitHub Action, and agent skill system for…</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/what-is-new-in-santi020k-eslint-config-basic-v2-0-4c72bfa59137?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*LBisWq8grWEPG7GJCfdzZQ.png" width="270" alt="Cover: What Is New in @santi020k/eslint-config-basic v2.0" /><br />
-    <strong>What Is New in @santi020k/eslint-config-basic v2.0</strong>
-  </a>
-  <br /><sub>📅 Jun 22, 2026</sub>
-  <br /><sub>A practical tour of the shipped @santi020k/eslint-config-basic v2.0 release: ESLint 10, one main install,…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://medium.com/@santi020k/why-developer-experience-work-should-be-measured-like-product-work-2c314c3655bf?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*kk9hBPswnvNxMH2xqnm2Lg.jpeg" width="270" alt="Cover: Why Developer Experience Work Should Be Measured Like Product Work" /><br />
-    <strong>Why Developer Experience Work Should Be Measured Like Product Work</strong>
-  </a>
-  <br /><sub>📅 Jun 12, 2026</sub>
-  <br /><sub>Developer experience work tends to disappear from the conversation.A team improves the local setup, fixes a…</sub>
-</td>
-<td align="center" width="33%" valign="top">
-  <a href="https://towardsdev.com/ai-coding-is-probabilistic-your-delivery-process-should-not-be-a94a9be1ef7d?source=rss-493338f85a63------2">
-    <img src="https://cdn-images-1.medium.com/max/1024/1*koi2JwbYq-SlZKjTGCDE8g.png" width="270" alt="Cover: AI Coding Is Probabilistic. Your Delivery Process Should Not Be" /><br />
-    <strong>AI Coding Is Probabilistic. Your Delivery Process Should Not Be</strong>
-  </a>
-  <br /><sub>📅 Apr 16, 2026</sub>
-  <br /><sub>Why ESLint, tests, snapshots, and end-to-end checks matter even more when AI can generate fast, plausible,…</sub>
-</td>
-</tr>
-</table>
+<ul>
+  <li><a href="https://medium.com/@santi020k/why-i-moved-from-vs-code-based-editors-to-zed-da3acbf0ee66">Why I Moved from VS Code-Based Editors to Zed</a> · Sep 07, 2026</li>
+  <li><a href="https://medium.com/@santi020k/why-i-built-between-contractions-d8bd87cfc018">Why I Built Between Contractions</a> · Aug 20, 2026</li>
+  <li><a href="https://medium.com/@santi020k/astro-and-alpine-patterns-for-fast-content-heavy-sites-d8cfc533ac72">Astro and Alpine Patterns for Fast Content-Heavy Sites</a> · Aug 14, 2026</li>
+</ul>
 <!-- BLOG-POST-LIST:END -->
 
-→ [Read all posts on Medium](https://medium.com/@santi020k) · [Read all posts on my blog](https://santi020k.com/blog)
+[All articles on my website](https://santi020k.com/blog/) · [Follow on Medium](https://medium.com/@santi020k)
 
----
+## Community
 
-## 🤝 Let's work together
+I’ve helped co-organize **[ReactJS Colombia](https://santi020k.com/portfolio/react-js-colombia/)** since 2017, through meetups, workshops, and mentorship. I speak about frontend architecture, developer experience, and engineering leadership.
 
-I'm at my best when a team is shipping but needs clearer standards, calmer releases, and stronger technical decision-making. Whether that's a tech lead engagement, architecture advisory, a workshop, or a full-stack build — feel free to reach out.
+**Surviving Technical Interviews in React** · ReactJS Medellín, 2024\
+[Watch the talk](https://www.youtube.com/watch?v=UtBZP93cOUs) · [Browse the slides](https://interviews.santi020k.com/1) · [More talks and workshops](https://santi020k.com/speaking/)
 
-<div align="center">
-  <a href="https://santi020k.com">
-    <img src="https://img.shields.io/badge/→_Visit_my_website-black?style=for-the-badge" alt="Visit website" />
+## GitHub activity
+
+<p align="center">
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=1c1528&amp;title_color=9f64f7&amp;text_color=dfdde3&amp;icon_color=9f64f7&amp;border_radius=12&amp;card_width=420&amp;show_icons=true&amp;hide_rank=true&amp;custom_title=GitHub+activity" />
+      <img src="https://github-stats-extended.vercel.app/api?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=ffffff&amp;title_color=620ae6&amp;text_color=332e38&amp;icon_color=620ae6&amp;border_radius=12&amp;card_width=420&amp;show_icons=true&amp;hide_rank=true&amp;custom_title=GitHub+activity" alt="Santiago’s GitHub statistics: stars, commits, pull requests, issues, and contributions." width="420" />
+    </picture>
   </a>
-  <a href="https://linkedin.com/in/santi020k">
-    <img src="https://img.shields.io/badge/→_Connect_on_LinkedIn-black?style=for-the-badge" alt="LinkedIn" />
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=1c1528&amp;title_color=9f64f7&amp;text_color=dfdde3&amp;icon_color=9f64f7&amp;border_radius=12&amp;card_width=420&amp;layout=compact&amp;langs_count=6&amp;hide=TeX&amp;custom_title=Languages+in+public+repositories" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=ffffff&amp;title_color=620ae6&amp;text_color=332e38&amp;icon_color=620ae6&amp;border_radius=12&amp;card_width=420&amp;layout=compact&amp;langs_count=6&amp;hide=TeX&amp;custom_title=Languages+in+public+repositories" alt="Language distribution across Santiago’s public repositories." width="420" />
+    </picture>
   </a>
-  <a href="mailto:hi@santi020k.com">
-    <img src="https://img.shields.io/badge/→_Send_an_email-black?style=for-the-badge" alt="Email" />
-  </a>
-  <a href="https://calendar.app.google/3hfKdPhg1C6EQ3bY7">
-    <img src="https://img.shields.io/badge/→_Book_a_call-black?style=for-the-badge&logo=Google+Calendar&logoColor=white" alt="Book a call" />
-  </a>
-</div>
+</p>
 
-<br />
+<p align="center">
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;background=1c1528&amp;ring=9f64f7&amp;fire=9f64f7&amp;currStreakLabel=9f64f7&amp;currStreakNum=dfdde3&amp;sideLabels=dfdde3&amp;sideNums=dfdde3&amp;dates=b6b2bd&amp;stroke=494158&amp;border_radius=12&amp;card_width=495" />
+      <img src="https://streak-stats.demolab.com/?user=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;background=ffffff&amp;ring=620ae6&amp;fire=620ae6&amp;currStreakLabel=620ae6&amp;currStreakNum=332e38&amp;sideLabels=332e38&amp;sideNums=332e38&amp;dates=5b5463&amp;stroke=d6d0dc&amp;border_radius=12&amp;card_width=495" alt="Santiago’s total contributions, current streak, and longest contribution streak." width="495" />
+    </picture>
+  </a>
+</p>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=santi020k&color=000000&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-</div>
+Language totals reflect public repository code, not proficiency. [Explore my repositories →](https://github.com/santi020k?tab=repositories)
+
+<details>
+  <summary>Watch the contribution snake</summary>
+  <p>
+    <a href="https://github.com/santi020k">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contribution-paused.svg" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
+        <img src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" alt="Contribution snake animation. Open Santiago’s GitHub profile for contribution history." width="900" />
+      </picture>
+    </a>
+  </p>
+</details>
+
+## Let’s build something useful
+
+Have a team that needs hands-on technical leadership, a platform to modernize, or a developer workflow to improve? I’d like to hear what you’re working on.
+
+**[hi@santi020k.com](mailto:hi@santi020k.com)** · [Connect on LinkedIn](https://linkedin.com/in/santi020k) · [santi020k.com](https://santi020k.com/)

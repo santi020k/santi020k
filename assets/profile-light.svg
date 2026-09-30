@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Calm systems. Clear delivery.</title>
+  <desc id="desc">Santiago Molina's violet identity with three connected, layered interface panels.</desc>
+  <!-- Colors from @santi020k/theme: theme-bg, surface, line, ink, ink-soft, brand, accent. -->
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="hsl(268, 20%, 100%)"/>
+      <stop offset="1" stop-color="hsl(268, 20%, 98%)"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="hsl(264, 92%, 47%)"/>
+      <stop offset="1" stop-color="hsl(264, 95%, 57%)"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="hsl(268, 15%, 84%)" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="20" fill="url(#surface)"/>
+  <path d="M700 0H1180Q1200 0 1200 20V340Q1200 360 1180 360H700Z" fill="url(#grid)" opacity="0.4"/>
+  <rect x="48" y="48" width="8" height="27" rx="4" fill="url(#violet)"/>
+  <g font-family="'Avenir Next', 'Segoe UI', sans-serif">
+    <text x="72" y="72" font-size="27" font-weight="600" fill="hsl(268, 8%, 36%)">santi020k</text>
+    <g font-size="76" font-weight="700" letter-spacing="-3">
+      <text x="44" y="179" fill="hsl(268, 10%, 20%)">Calm systems.</text>
+      <text x="44" y="264" fill="hsl(264, 92%, 47%)">Clear delivery.</text>
+    </g>
+  </g>
+  <path d="M763 143H725V286H1056V238" fill="none" stroke="hsl(264, 92%, 47%)" stroke-width="2"/>
+  <circle cx="725" cy="286" r="5" fill="hsl(264, 92%, 47%)"/>
+  <rect x="861" y="45" width="275" height="159" rx="14" fill="hsl(268, 20%, 100%)" stroke="hsl(268, 15%, 84%)"/>
+  <path d="M886 72H941M886 89H996" stroke="hsl(268, 15%, 84%)" stroke-width="7" stroke-linecap="round"/>
+  <rect x="809" y="92" width="275" height="159" rx="14" fill="hsl(264, 60%, 94%)" stroke="hsl(264, 95%, 57%)"/>
+  <rect x="760" y="138" width="275" height="159" rx="14" fill="hsl(268, 20%, 100%)" stroke="hsl(264, 92%, 47%)"/>
+  <path d="M760 178H1035" stroke="hsl(268, 15%, 84%)"/>
+  <g fill="hsl(264, 92%, 47%)">
+    <circle cx="781" cy="158" r="4"/>
+    <circle cx="796" cy="158" r="4" opacity="0.65"/>
+    <circle cx="811" cy="158" r="4" opacity="0.35"/>
+  </g>
+  <path d="M782 205H842M782 225H902M782 245H860M782 265H877" stroke="hsl(268, 15%, 84%)" stroke-width="7" stroke-linecap="round"/>
+  <rect x="933" y="204" width="72" height="66" rx="12" fill="url(#violet)"/>
+  <path d="m951 237 12 12 24-26" fill="none" stroke="hsl(268, 20%, 98%)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1093 272V296M1081 284H1105" stroke="hsl(264, 92%, 47%)" stroke-width="2"/>
+</svg>

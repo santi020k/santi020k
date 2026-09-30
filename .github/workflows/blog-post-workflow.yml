@@ -11,12 +11,20 @@ on:
       - '.github/scripts/update_medium_posts.py'
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: profile-writing
+  cancel-in-progress: false
 
 jobs:
   update-readme-with-blog:
     name: Update README with latest Medium posts
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -24,7 +32,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate post cards
+      - name: Check profile automation
+        run: python -m unittest discover -s .github/scripts -p 'test_*.py' -v
+
+      - name: Refresh reading list
         run: python .github/scripts/update_medium_posts.py
 
       - name: Commit changes
