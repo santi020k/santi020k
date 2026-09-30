@@ -1,0 +1,45 @@
+name: Contribution snake
+
+on:
+  schedule:
+    # Refresh weekly; the public output branch keeps the last successful image.
+    - cron: '23 8 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/snake.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate light and dark contribution animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: santi020k
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#6710e6&color_dots=#f5f3f8,#e8ddf9,#c4a3f1,#a071df,#6710e6
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#a364f7&color_dots=#211b2f,#38244b,#674091,#915bc8,#b187ee
+      - name: Publish generated images without rewriting output history
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: 'chore: refresh contribution snake'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

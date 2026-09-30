@@ -12,7 +12,7 @@ I help teams modernize systems, improve developer experience, and ship with conf
 
 **[Website](https://santi020k.com/)** · **[Résumé](https://santi020k.com/resume/)** · **[LinkedIn](https://linkedin.com/in/santi020k)** · **[Email](mailto:hi@santi020k.com)**
 
-[Selected work](#selected-work) · [Developer tools](#developer-tools) · [Products](#products) · [Writing](#writing) · [Community](#community)
+[Selected work](#selected-work) · [Developer tools](#developer-tools) · [Products](#products) · [Writing](#writing) · [Community](#community) · [Activity](#github-activity)
 
 ## Selected work
 
@@ -90,6 +90,47 @@ I’ve helped co-organize **[ReactJS Colombia](https://santi020k.com/portfolio/r
 
 **Surviving Technical Interviews in React** · ReactJS Medellín, 2024\
 [Watch the talk](https://www.youtube.com/watch?v=UtBZP93cOUs) · [Browse the slides](https://interviews.santi020k.com/1) · [More talks and workshops](https://santi020k.com/speaking/)
+
+## GitHub activity
+
+<p align="center">
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=1c1528&amp;title_color=9f64f7&amp;text_color=dfdde3&amp;icon_color=9f64f7&amp;border_radius=12&amp;card_width=420&amp;show_icons=true&amp;hide_rank=true&amp;custom_title=GitHub+activity" />
+      <img src="https://github-stats-extended.vercel.app/api?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=ffffff&amp;title_color=620ae6&amp;text_color=332e38&amp;icon_color=620ae6&amp;border_radius=12&amp;card_width=420&amp;show_icons=true&amp;hide_rank=true&amp;custom_title=GitHub+activity" alt="Santiago’s GitHub statistics: stars, commits, pull requests, issues, and contributions." width="420" />
+    </picture>
+  </a>
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=1c1528&amp;title_color=9f64f7&amp;text_color=dfdde3&amp;icon_color=9f64f7&amp;border_radius=12&amp;card_width=420&amp;layout=compact&amp;langs_count=6&amp;hide=TeX&amp;custom_title=Languages+in+public+repositories" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;bg_color=ffffff&amp;title_color=620ae6&amp;text_color=332e38&amp;icon_color=620ae6&amp;border_radius=12&amp;card_width=420&amp;layout=compact&amp;langs_count=6&amp;hide=TeX&amp;custom_title=Languages+in+public+repositories" alt="Language distribution across Santiago’s public repositories." width="420" />
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/santi020k?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;background=1c1528&amp;ring=9f64f7&amp;fire=9f64f7&amp;currStreakLabel=9f64f7&amp;currStreakNum=dfdde3&amp;sideLabels=dfdde3&amp;sideNums=dfdde3&amp;dates=b6b2bd&amp;stroke=494158&amp;border_radius=12&amp;card_width=495" />
+      <img src="https://streak-stats.demolab.com/?user=santi020k&amp;hide_border=true&amp;disable_animations=true&amp;background=ffffff&amp;ring=620ae6&amp;fire=620ae6&amp;currStreakLabel=620ae6&amp;currStreakNum=332e38&amp;sideLabels=332e38&amp;sideNums=332e38&amp;dates=5b5463&amp;stroke=d6d0dc&amp;border_radius=12&amp;card_width=495" alt="Santiago’s total contributions, current streak, and longest contribution streak." width="495" />
+    </picture>
+  </a>
+</p>
+
+Language totals reflect public repository code, not proficiency. [Explore my repositories →](https://github.com/santi020k?tab=repositories)
+
+<details>
+  <summary>Watch the contribution snake</summary>
+  <p>
+    <a href="https://github.com/santi020k">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contribution-paused.svg" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake-dark.svg" />
+        <img src="https://raw.githubusercontent.com/santi020k/santi020k/output/github-contribution-grid-snake.svg" alt="Contribution snake animation. Open Santiago’s GitHub profile for contribution history." width="900" />
+      </picture>
+    </a>
+  </p>
+</details>
 
 ## Let’s build something useful
 

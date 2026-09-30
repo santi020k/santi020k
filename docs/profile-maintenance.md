@@ -3,7 +3,9 @@
 This repository is Santiago Molina’s GitHub profile. `README.md` is the public
 landing page; keep maintenance details here so the profile stays easy to scan.
 It is a Markdown repository with standard-library Python automation, not an app
-or a versioned package. It has no package manager, install step, or production build.
+or a published package. It has no package manager, install step, or production build.
+The first profile release is being prepared on `release/v1.0.0`; changes and
+publication status are tracked in `CHANGELOG.md`.
 
 ## Content structure
 
@@ -13,11 +15,13 @@ or a versioned package. It has no package manager, install step, or production b
 4. Four personal products, linked to public product websites.
 5. Working principles and a compact technology summary.
 6. Three curated website articles and three automatically refreshed Medium posts.
-7. Community contributions, a recorded talk, and a clear invitation to collaborate.
+7. Community contributions and a recorded talk.
+8. GitHub activity cards, an optional contribution snake, and a clear invitation to collaborate.
 
 Keep the profile useful to engineering teams, hiring managers, and collaborators.
 Describe the problem and the contribution before listing technologies. Avoid
-unverified traction, stale version numbers, activity counters, and lengthy badge grids.
+unverified traction, stale version numbers, and lengthy badge grids. Keep activity
+widgets below the portfolio content so they support the work rather than dominate it.
 Only advertise availability when Santiago confirms it is current.
 
 ## Files
@@ -33,6 +37,9 @@ Only advertise availability when Santiago confirms it is current.
 - `.github/workflows/profile-check.yml`: checks pull requests and changes to `main`.
 - `.github/workflows/blog-post-workflow.yml`: daily Medium refresh at 08:00 UTC,
   with a manual trigger restricted to `main`.
+- `.github/workflows/snake.yml`: weekly contribution animation refresh, with
+  light/dark violet palettes and incremental commits to the existing `output` branch.
+- `assets/contribution-paused.svg`: static alternative when reduced motion is requested.
 - `.github/workflows/apply-topics.yml`: existing, separately invoked repository-topic
   administration. It is not needed to update the profile.
 - `banner.png`, `banner.webp`, and `old-banners/`: retained historical artwork.
@@ -40,8 +47,40 @@ Only advertise availability when Santiago confirms it is current.
 GitHub renders the page with its own styles. Use semantic Markdown, compact
 lists, and simple tables. Lumen’s runtime components cannot run in a GitHub
 README, so no frontend dependency is needed. The static header reuses Theme’s
-palette without requiring a build or a remote image service. The unused daily
-contribution-snake workflow has been retired with the profile’s activity graphics.
+palette without requiring a build or a remote image service. Activity widgets use
+external providers, as described below.
+
+## GitHub widgets
+
+- Statistics and languages use the maintained
+  [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended)
+  service. The original [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+  project now recommends this successor; its old endpoints returned HTTP 503
+  during this iteration.
+- Contributions and streaks use
+  [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats).
+- Both providers have separate light/dark palettes; entrance animations are
+  disabled. Cards wrap naturally on narrow screens. No private token is sent to
+  a widget service, and no self-hosted infrastructure is required.
+- The [contribution snake](https://github.com/Platane/snk) is opt-in through a
+  collapsed details element. Reduced-motion viewers receive a static alternative.
+  Its GitHub Actions job generates new images weekly and when its workflow changes
+  on `main`. Generation must succeed before publication; `keep_history: true`
+  preserves existing output history. It runs independently of the Medium refresh.
+- The old activity-graph endpoint returned HTTP 402, so it is not embedded.
+
+These cards are cached, provider-calculated snapshots. Language totals describe
+public repository code, not skill level; counts across providers need not agree.
+Check the SVG's displayed content, not only HTTP status, before declaring a widget
+healthy. Keep ordinary links to GitHub usable when providers are down.
+
+While iterating locally, the snake references the last published `output` images.
+The violet snake palette will appear after the first successful authorized workflow
+run on `main`; a local preview does not demonstrate that publication.
+
+The restored actions are pinned to verified stable releases: snk 3.5.0 and
+ghaction-github-pages 5.0.0. The publisher uses Node 24 and requires an Actions
+runner at least 2.327.1; GitHub-hosted `ubuntu-latest` is the intended environment.
 
 ## Source review
 
@@ -95,6 +134,8 @@ the existing file if writing fails.
 Render the Markdown through GitHub’s Markdown API or GitHub’s preview. Check light
 and dark themes at desktop and narrow mobile widths. Check image loading, banner
 proportions, section links, text wrapping, table overflow, and keyboard focus.
+Also verify all widget images load, inspect their visible values for provider-error
+cards, expand the snake, and check its reduced-motion alternative.
 Before/after captures should use the same viewport, theme, and rendering surface.
 Local previews approximate GitHub’s surrounding layout; the final live profile must
 be checked after an authorized push and merge. Keep screenshots out of Git.
@@ -134,5 +175,6 @@ made by this repository.
 - [Speaking and community](https://santi020k.com/speaking/).
 
 Do not automatically alter GitHub pins, bio, LinkedIn, repository topics, or
-website content. Publishing the README requires an authorized push and merge
-through the repository’s normal GitHub workflow; no version tag is needed.
+website content. Keep iteration commits on `release/v1.0.0`. Publishing the README
+requires an authorized push and merge through the repository’s normal GitHub
+workflow. Creating a release branch alone does not publish a profile, tag, or release.

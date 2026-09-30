@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution animation paused</title>
+  <desc id="desc">Reduced motion is enabled. Follow this image's link to view Santiago Molina's contribution history on GitHub.</desc>
+  <rect width="900" height="140" rx="16" fill="hsl(260, 30%, 12%)"/>
+  <g fill="hsl(264, 90%, 68%)">
+    <rect x="36" y="49" width="10" height="42" rx="4"/>
+    <rect x="56" y="49" width="10" height="42" rx="4"/>
+  </g>
+  <g font-family="'Avenir Next', 'Segoe UI', sans-serif" fill="hsl(260, 10%, 88%)">
+    <text x="96" y="66" font-size="26" font-weight="600">Contribution animation paused</text>
+    <text x="96" y="101" font-size="21">View contribution history on GitHub →</text>
+  </g>
+</svg>

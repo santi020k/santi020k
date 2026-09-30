@@ -1,4 +1,4 @@
-"""Check that the checked-in profile is usable without remote image services."""
+"""Check profile navigation and accessible, self-contained local artwork."""
 
 from __future__ import annotations
 
