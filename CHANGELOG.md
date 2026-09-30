@@ -10,9 +10,10 @@
 ### Publication and recovery
 
 Merging `release/v1.1.0` into `main` publishes the refreshed profile and triggers
-the profile checks and Medium refresh. The contribution snake continues to use
-the most recent images on the `output` branch. There is no package artifact, data
-migration, or application deployment for this release.
+the profile checks. The Medium list continues to refresh on its daily schedule,
+and the contribution snake continues to use the most recent images on the `output`
+branch. There is no package artifact, data migration, or application deployment
+for this release.
 
 Rollback is a reviewed revert of the merged release commit. External badge,
 statistics, streak, and snake providers can be unavailable independently of the
