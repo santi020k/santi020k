@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.1.0 — 2026-09-30
+
+- Added branded Website, Résumé, LinkedIn, Email, and availability badges.
+- Centered the profile introduction and added a concise, responsive current-focus summary.
+- Added a compact technology badge set that follows the existing violet visual language.
+- Made the contribution snake visible by default while preserving the static reduced-motion alternative.
+
+### Publication and recovery
+
+Merging `release/v1.1.0` into `main` publishes the refreshed profile and triggers
+the profile checks. The Medium list continues to refresh on its daily schedule,
+and the contribution snake continues to use the most recent images on the `output`
+branch. There is no package artifact, data migration, or application deployment
+for this release.
+
+Rollback is a reviewed revert of the merged release commit. External badge,
+statistics, streak, and snake providers can be unavailable independently of the
+repository and should be verified again after publication.
+
 ## 1.0.0 — 2026-09-30
 
 First curated profile release, prepared on `release/v1.0.0`.
