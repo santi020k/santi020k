@@ -4,8 +4,8 @@ This repository is Santiago Molina’s GitHub profile. `README.md` is the public
 landing page; keep maintenance details here so the profile stays easy to scan.
 It is a Markdown repository with standard-library Python automation, not an app
 or a published package. It has no package manager, install step, or production build.
-The first profile release is being prepared on `release/v1.0.0`; changes and
-publication status are tracked in `CHANGELOG.md`.
+The first profile refresh uses `release/v1.0.0`; its changes and publication
+procedure are tracked in `CHANGELOG.md`.
 
 ## Content structure
 
@@ -74,9 +74,9 @@ public repository code, not skill level; counts across providers need not agree.
 Check the SVG's displayed content, not only HTTP status, before declaring a widget
 healthy. Keep ordinary links to GitHub usable when providers are down.
 
-While iterating locally, the snake references the last published `output` images.
-The violet snake palette will appear after the first successful authorized workflow
-run on `main`; a local preview does not demonstrate that publication.
+The snake references the last published `output` images. Changes to its palette
+appear after a successful authorized workflow run on `main`; a local preview
+does not demonstrate that publication.
 
 The restored actions are pinned to verified stable releases: snk 3.5.0 and
 ghaction-github-pages 5.0.0. The publisher uses Node 24 and requires an Actions
@@ -175,6 +175,6 @@ made by this repository.
 - [Speaking and community](https://santi020k.com/speaking/).
 
 Do not automatically alter GitHub pins, bio, LinkedIn, repository topics, or
-website content. Keep iteration commits on `release/v1.0.0`. Publishing the README
+website content. Keep iteration commits on the active release branch. Publishing the README
 requires an authorized push and merge through the repository’s normal GitHub
 workflow. Creating a release branch alone does not publish a profile, tag, or release.

@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — Unreleased
+## 1.0.0 — 2026-09-30
 
 First curated profile release, prepared on `release/v1.0.0`.
 
@@ -16,10 +16,12 @@ First curated profile release, prepared on `release/v1.0.0`.
 
 ### Publication and recovery
 
-This release is being iterated locally. No profile publication, tag, or GitHub
-Release has been created. Before an authorized push or PR into `main`, run the
-profile checks and the independent review required by the global instructions.
-After merging, verify the live profile and the first snake-generation workflow.
+Merging the profile refresh from `release/v1.0.0` into `main` publishes the README
+on GitHub and triggers the profile checks, Medium refresh, and contribution-snake
+generation. Run the profile checks and the independent review required by the
+global instructions before pushing the release branch. After merging, verify the
+live profile and the first snake-generation workflow. This is a profile-content
+release; there is no separately distributed application or package artifact.
 
 There is no application runtime, package version, or data migration. If the
 profile refresh needs to be rolled back, revert its merged change through the
