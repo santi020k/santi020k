@@ -118,9 +118,9 @@ I write about the systems I build and the tradeoffs behind them. Start with:
 
 <!-- BLOG-POST-LIST:START -->
 <ul>
+  <li><a href="https://medium.com/@santi020k/what-changed-when-i-started-writing-architecture-notes-every-month-2eba988084e6">What Changed When I Started Writing Architecture Notes Every Month</a> · Sep 11, 2026</li>
   <li><a href="https://medium.com/@santi020k/why-i-moved-from-vs-code-based-editors-to-zed-da3acbf0ee66">Why I Moved from VS Code-Based Editors to Zed</a> · Sep 07, 2026</li>
   <li><a href="https://medium.com/@santi020k/why-i-built-between-contractions-d8bd87cfc018">Why I Built Between Contractions</a> · Aug 20, 2026</li>
-  <li><a href="https://medium.com/@santi020k/astro-and-alpine-patterns-for-fast-content-heavy-sites-d8cfc533ac72">Astro and Alpine Patterns for Fast Content-Heavy Sites</a> · Aug 14, 2026</li>
 </ul>
 <!-- BLOG-POST-LIST:END -->
 
