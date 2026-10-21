@@ -118,9 +118,9 @@ I write about the systems I build and the tradeoffs behind them. Start with:
 
 <!-- BLOG-POST-LIST:START -->
 <ul>
+  <li><a href="https://medium.com/@santi020k/lumen-4-from-primitives-to-product-workflows-f537feb6bda2">Lumen 4: From primitives to product workflows</a> · Oct 20, 2026</li>
   <li><a href="https://medium.com/@santi020k/what-changed-when-i-started-writing-architecture-notes-every-month-2eba988084e6">What Changed When I Started Writing Architecture Notes Every Month</a> · Sep 11, 2026</li>
   <li><a href="https://medium.com/@santi020k/why-i-moved-from-vs-code-based-editors-to-zed-da3acbf0ee66">Why I Moved from VS Code-Based Editors to Zed</a> · Sep 07, 2026</li>
-  <li><a href="https://medium.com/@santi020k/deterministic-open-graph-images-without-design-lock-in-1e1b21724751">Deterministic Open Graph images without design lock-in</a> · Aug 22, 2026</li>
 </ul>
 <!-- BLOG-POST-LIST:END -->
 
