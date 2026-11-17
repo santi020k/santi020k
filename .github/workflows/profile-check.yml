@@ -4,23 +4,83 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: profile-check-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
-  check:
+  validation:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test profile and feed handling
-        run: python -m unittest discover -s .github/scripts -p 'test_*.py' -v
+      - name: Test relevant profile and feed handling
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          args=()
+          if [[ "$GITHUB_EVENT_NAME" == pull_request && -n "$BASE" && "$BRANCH" != release/* && "$BRANCH" != changeset-release/* ]]; then
+            args=(--base "$BASE")
+          fi
+          python .github/scripts/check_profile.py "${args[@]}"
       - name: Check whitespace
-        run: git diff --check HEAD^ HEAD
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [[ -n "$BASE" ]] && git merge-base "$BASE" HEAD >/dev/null; then
+            git diff --check "$BASE...HEAD"
+          else
+            git show --format= --check HEAD
+          fi
+  impact:
+    name: Quality v2 shadow plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install pinned Quality
+        run: |
+          curl --proto '=https' --tlsv1.2 -fsSL https://raw.githubusercontent.com/santi020k/quality/ff490e9efbd5fdfbdb1e6c404f1741d04c57f585/install.sh -o "$RUNNER_TEMP/install-quality.sh"
+          QUALITY_INSTALL_DIR="$RUNNER_TEMP/quality-bin" sh "$RUNNER_TEMP/install-quality.sh" santi020k/quality v2.0.0
+          echo "$RUNNER_TEMP/quality-bin" >> "$GITHUB_PATH"
+      - name: Test published impact selection
+        run: python3 .github/scripts/check_impact_fixture.py
+      - name: Record conservative committed-source plan
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          args=(--full)
+          if [[ "$GITHUB_EVENT_NAME" == pull_request && -n "$BASE" && "$BRANCH" != release/* && "$BRANCH" != changeset-release/* ]]; then
+            args=(--base "$BASE" --head HEAD --comparison merge-base)
+          fi
+          quality impact plan "${args[@]}" --format json >> "$GITHUB_STEP_SUMMARY"
+  check:
+    name: check
+    if: always()
+    needs: [validation, impact]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require both checks
+        env:
+          CHECKS: ${{ needs.validation.result }}
+          IMPACT: ${{ needs.impact.result }}
+        run: |
+          for result in "$CHECKS" "$IMPACT"; do
+            [[ "$result" == success ]] || exit 1
+          done
