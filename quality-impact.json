@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "global_inputs": [
+    ".github/",
+    "quality.yml",
+    "quality-impact.json",
+    ".quality-version",
+    ".gitignore"
+  ],
+  "ignored_inputs": [
+    "docs/",
+    "CHANGELOG.md"
+  ],
+  "nodes": {
+    "profile": {
+      "inputs": [
+        "README.md",
+        "assets/"
+      ],
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".github/scripts",
+        "-p",
+        "test_profile.py"
+      ]
+    },
+    "automation": {
+      "inputs": [],
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".github/scripts",
+        "-p",
+        "test_update_medium_posts.py"
+      ]
+    },
+    "selection": {
+      "inputs": [],
+      "always": true,
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".github/scripts",
+        "-p",
+        "test_check_profile.py"
+      ]
+    }
+  }
+}

@@ -142,10 +142,29 @@ Before/after captures should use the same viewport, theme, and rendering surface
 Local previews approximate GitHub’s surrounding layout; the final live profile must
 be checked after an authorized push and merge. Keep screenshots out of Git.
 
-Quality was evaluated for this repository; its current automatic detection finds
-no applicable analyzers here. The standard-library test command is the completion
-gate. Astro Doctor, ESLint, OG generation, Auth, and a JavaScript package manager
-would add no useful capability to this static profile and are not dependencies.
+Quality 2.0.0 now wraps the existing offline Python checks through `quality.yml`;
+`.quality-version` records the pin. Run `quality check` or the existing unittest
+command for full local validation. No package manager or application build is needed.
+
+Ordinary pull requests select profile tests for README/artwork changes and both
+suites for feed changes. Documentation-only changes still run selector tests.
+Unknown files, deleted/renamed sources and unavailable history run all suites.
+Pushes, manual runs and release branches retain full checks. The stable `check`
+job requires both Python validation and the independent Quality shadow plan to
+succeed, rejecting skipped, cancelled or failed jobs. Superseded pull requests
+cancel their validation; scheduled blog and snake writers retain their existing
+serialization, permissions and publication behavior.
+
+`quality-impact.json` records committed-source ownership, not an execution adapter.
+CI installs Quality from the immutable v2 release revision, exercises real CLI
+fixtures, then records its plan alongside the existing checks. Runtime content and
+provider responses are never cached. `python3 .github/scripts/check_profile.py
+--base <commit>` is the focused local command; `QUALITY_BINARY=/path/to/quality
+python3 .github/scripts/check_impact_fixture.py` verifies policy behavior. These
+maintenance changes target `main` through ordinary review; no new profile package
+or semantic release is invented. Reverting the workflow and runner restores the
+prior full-suite behavior without changing generated content or external settings.
+Astro Doctor, ESLint, OG generation and Auth remain unnecessary for this repository.
 
 ## Suggested GitHub setup
 
